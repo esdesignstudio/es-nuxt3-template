@@ -1,0 +1,222 @@
+# Translation of Plugins - Custom Taxonomy Order - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Custom Taxonomy Order - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-08 06:49:20+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Custom Taxonomy Order - Stable (latest release)\n"
+
+#: page-customtaxorder.php:293
+msgid "Order of %d term updated."
+msgid_plural "Order of %d terms updated."
+msgstr[0] "%d 個項目的排序已更新。"
+
+#: page-customtaxorder.php:101
+msgid "Order by Post Count."
+msgstr "依照文章計數排序"
+
+#: page-customtaxorder.php:369
+msgid "The Settings could not be saved. Please try again."
+msgstr "無法儲存設定。請再試一次。"
+
+#: page-customtaxorder.php:361
+msgid "Settings have been saved"
+msgstr "設定已儲存。"
+
+#: page-customtaxorder.php:33 page-customtaxorder.php:271
+#: page-customtaxorder.php:354 taxonomies.php:10 taxonomies.php:98
+msgid "You need a higher level of permission."
+msgstr "必須具備更高的權限才能進行操作。"
+
+#. translators: %s is a link
+#: admin-customtaxorder.php:303
+msgid "I will make a request on %smake/polyglots%s to have you added as validator for this plugin/locale."
+msgstr "我會在 %smake/polyglots%s 網站中回應要求，並將你加入這個外掛的特定地區語言合格譯者群中。"
+
+#: admin-customtaxorder.php:300
+msgid "You can start translating strings there for your locale. They need to be validated though, so if there's no validator yet, and you want to apply for being validator (PTE), please post it on the %ssupport forum%s."
+msgstr "使用者可以在那為自己的母語進行本地化。在 GlotPress 提交的譯文必須經過核准，如果提交的譯文尚未經過核准，而你想成為這個外掛的專案本地化編輯 (PTE，Project Translation Editor)，請將這項要求發佈在%s技術支援論壇%s上。"
+
+#. translators: %s is a link
+#: admin-customtaxorder.php:299
+msgid "Translations can be added very easily through %sGlotPress%s."
+msgstr "透過 %sGlotPress%s 網站提交譯文相當簡單。"
+
+#: admin-customtaxorder.php:295
+msgid "Translations"
+msgstr "本地化"
+
+#. translators: %s is a link
+#: admin-customtaxorder.php:292
+msgid "If this plugin has any value to you, then please leave a review at %sthe plugin page%s at wordpress.org."
+msgstr "如果這個外掛對網站有幫助，請在 WordPress.org 的%s外掛評分頁面%s撰寫使用者評論。"
+
+#: admin-customtaxorder.php:284
+msgid "If you send me an email, I will not reply. Please use the support forum."
+msgstr "我不會回應任何來自電子郵件的技術支援要求，請在技術支援論壇上尋求協助。"
+
+#: admin-customtaxorder.php:283
+msgid "I will do my best to respond as soon as possible."
+msgstr "我會在我能力範圍所及儘快回覆。"
+
+#. translators: %s is a link
+#: admin-customtaxorder.php:282
+msgid "If you have a problem or a feature request, please post it on the %ssupport forum at wordpress.org%s."
+msgstr "如果使用上遇到任何問題或想提出功能要求，請在 %sWordPress.org 的技術支援論壇%s提出。"
+
+#: admin-customtaxorder.php:278
+msgid "Support"
+msgstr "技術支援"
+
+#: admin-customtaxorder.php:182
+msgid "This sub-term will be sorted after the parent term, the order entered here is relative to other sub-terms."
+msgstr "這個子項目會在上層項目後進行排序，在這裡輸入的順序與其他子項目是相對的順序。"
+
+#: admin-customtaxorder.php:146 admin-customtaxorder.php:179
+msgid "This taxonomy is sorted based on custom order. You can choose your own order by entering a number (1 for first, etc.) in this field."
+msgstr "這個分類法以自訂方式進行排序。網站管理員可以在這個欄位中輸入整數 (1 代表最優先) 進行排序。"
+
+#: admin-customtaxorder.php:142 admin-customtaxorder.php:172
+msgid "Order"
+msgstr "排序"
+
+#: page-customtaxorder.php:174
+msgid "Sort on Slug"
+msgstr "依代稱排序"
+
+#: page-customtaxorder.php:156
+msgid "Order the terms by dragging and dropping them into the desired order."
+msgstr "使用拖放操作將各個項目排序成符合需求的順序。"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/custom-taxonomy-order-ne/"
+msgstr "https://tw.wordpress.org/plugins/custom-taxonomy-order-ne/"
+
+#. Author URI of the plugin
+msgid "https://timelord.nl/"
+msgstr "https://timelord.nl/"
+
+#: page-customtaxorder.php:99
+msgid "Alphabetical Order by Slug."
+msgstr "依照代稱字母及部首排序"
+
+#: page-customtaxorder.php:97
+msgid "Alphabetical Order by Name."
+msgstr "依照名稱字母及部首排序"
+
+#: page-customtaxorder.php:245 page-customtaxorder.php:318 taxonomies.php:90
+msgid "The Nonce did not validate. Please try again."
+msgstr "單次隨機碼尚未通過驗證，請再試一次。"
+
+#: taxonomies.php:69
+msgid "No taxonomies found"
+msgstr "找不到符合條件的分類法"
+
+#: admin-customtaxorder.php:42 taxonomies.php:20 taxonomies.php:38
+msgid "Order Taxonomies"
+msgstr "排序分類法"
+
+#. Author of the plugin
+msgid "Marcel Pol"
+msgstr "Marcel Pol"
+
+#. Description of the plugin
+msgid "Allows for the ordering of categories and custom taxonomy terms through a simple drag-and-drop interface."
+msgstr "讓網站管理員透過簡單的拖放介面為分類進行排序及自訂分類法詞彙。"
+
+#. Plugin Name of the plugin
+msgid "Custom Taxonomy Order"
+msgstr "Custom Taxonomy Order"
+
+#: page-customtaxorder.php:221
+msgid "Save Settings"
+msgstr "儲存設定"
+
+#: page-customtaxorder.php:214
+msgid "Auto-Sort Queries of this Taxonomy"
+msgstr "這個分類法的自動排序方式"
+
+#: page-customtaxorder.php:198
+msgid "No terms found"
+msgstr "找不到符合條件的項目"
+
+#: page-customtaxorder.php:192
+msgid "Order Sub-terms"
+msgstr "排序子項目"
+
+#: page-customtaxorder.php:187
+msgid "Choose a term from the dropdown to order its sub-terms."
+msgstr "從下拉式選單中選取項目以便為其子項目進行排序。"
+
+#: page-customtaxorder.php:187
+msgid "Sub-"
+msgstr "子"
+
+#: page-customtaxorder.php:173
+msgid "Sort Alphabetical"
+msgstr "依字母及部首排序"
+
+#: page-customtaxorder.php:172 taxonomies.php:60
+msgid "Update Order"
+msgstr "更新排序"
+
+#: page-customtaxorder.php:167
+msgid "Return to Parent"
+msgstr "回到上一層"
+
+#: taxonomies.php:39
+msgid "Order the taxonomies by dragging and dropping them into the desired order."
+msgstr "使用拖放操作將分類法排序成符合需求的順序。"
+
+#: page-customtaxorder.php:95
+msgid "Custom Order as defined above."
+msgstr "手動自訂排序"
+
+#: page-customtaxorder.php:93
+msgid "Order by ID (default)."
+msgstr "依照 ID 排序 (預設)"
+
+#: page-customtaxorder.php:58 page-customtaxorder.php:60
+msgid "Taxonomies"
+msgstr "分類法"
+
+#: page-customtaxorder.php:55
+msgid "The ordering of categories, tags and terms through a simple drag-and-drop interface."
+msgstr "透過簡單的拖放介面為分類、標籤及分類法詞彙進行排序。"
+
+#: admin-customtaxorder.php:316 page-customtaxorder.php:211
+msgid "Settings"
+msgstr "設定"
+
+#: admin-customtaxorder.php:288
+msgid "Review this plugin."
+msgstr "<strong>為外掛評分</strong>"
+
+#: admin-customtaxorder.php:277
+msgid "About Custom Taxonomy Order NE"
+msgstr "關於 Custom Taxonomy Order"
+
+#: page-customtaxorder.php:300 taxonomies.php:108
+msgid "An error occured, order has not been saved."
+msgstr "由於發生錯誤，所以排序方式並未儲存。"
+
+#: taxonomies.php:106
+msgid "Order updated successfully."
+msgstr "排序已成功更新。"
+
+#: admin-customtaxorder.php:72
+msgid "About"
+msgstr "關於"
+
+#: admin-customtaxorder.php:69 page-customtaxorder.php:127
+msgid "Order "
+msgstr "排序"
+
+#: admin-customtaxorder.php:40
+msgid "Term Order"
+msgstr "項目排序"

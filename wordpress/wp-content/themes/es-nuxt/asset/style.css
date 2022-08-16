@@ -1,0 +1,31 @@
+label[for=dashboard_site_health-hide],
+label[for=dashboard_right_now-hide],
+label[for=wp_welcome_panel-hide],
+#contextual-help-link-wrap{
+    display: none;
+}
+.postbox {
+    border-radius: 5px;
+}
+#wpbody{
+    padding: 0 1rem;
+}
+#wpfooter{
+    padding: 1rem 2rem;
+}
+#adminmenu div.wp-menu-name{
+    padding: 12px 8px 12px 36px;
+}
+div.wp-menu-image:before{
+    padding: 12px 0;
+}
+.wp-admin{
+    animation: fadeIn 0.5s;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}

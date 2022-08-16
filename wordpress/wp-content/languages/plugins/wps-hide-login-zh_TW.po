@@ -1,0 +1,118 @@
+# Translation of Plugins - WPS Hide Login - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - WPS Hide Login - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-10-16 22:42:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - WPS Hide Login - Stable (latest release)\n"
+
+#. Author of the plugin
+msgid "WPServeur, NicolasKulka, wpformation"
+msgstr "WPServeur、NicolasKulka 及 wpformation"
+
+#: classes/plugin.php:417
+msgid "Redirect URL when someone tries to access the wp-login.php page and the wp-admin directory while not logged in."
+msgstr "當有未登入的人員試圖存取 wp-login.php 頁面及 wp-admin 目錄時，將他重新導向至指定網址頁面。"
+
+#: classes/plugin.php:402
+msgid "Protect your website by changing the login URL and preventing access to the wp-login.php page and the wp-admin directory to non-connected people."
+msgstr "透過變更登入網址的方式保護網站，並防止未經授權的人員存取 wp-login.php 頁面及 wp-admin 目錄。"
+
+#: classes/plugin.php:373
+msgid "WPS Limit Login"
+msgstr "WPS Limit Login"
+
+#: classes/plugin.php:373
+msgid "and"
+msgstr "及"
+
+#: classes/plugin.php:372
+msgid "WPS Cleaner"
+msgstr "WPS Cleaner"
+
+#: classes/plugin.php:371
+msgid "WPS Bidouille"
+msgstr "WPS Bidouille"
+
+#: classes/plugin.php:371 classes/plugin.php:372
+msgid "the plugin"
+msgstr "外掛"
+
+#: classes/plugin.php:370
+msgid "Discover our other plugins:"
+msgstr "我們提供的其他外掛:"
+
+#: classes/plugin.php:369
+msgid "WordPress specialized hosting"
+msgstr "(WPServeur 是專營 WordPress 網站託管的主機服務提供商)"
+
+#: classes/plugin.php:296
+msgid "Redirection url"
+msgstr "重新導向網址"
+
+#: classes/plugin.php:245
+msgid "Redirection url default"
+msgstr "重新導向網址預設值"
+
+#. Author URI of the plugin
+msgid "https://wpserveur.net"
+msgstr "https://wpserveur.net"
+
+#: classes/plugin.php:519
+msgid "This has been disabled"
+msgstr "這項功能已停用。"
+
+#. Description of the plugin
+msgid "Protect your website by changing the login URL and preventing access to wp-login.php page and wp-admin directory while not logged-in"
+msgstr "透過變更登入網址的方式保護網站，並防止未登入的人員存取 wp-login.php 頁面及 wp-admin 目錄。"
+
+#: classes/plugin.php:479
+msgid "This feature is not enabled."
+msgstr "這項功能尚未啟用。"
+
+#: classes/plugin.php:442 classes/plugin.php:446
+msgid "Settings"
+msgstr "設定"
+
+#: classes/plugin.php:431
+msgid "Your login page is now here: <strong><a href=\"%1$s\">%2$s</a></strong>. Bookmark this page!"
+msgstr "這個網站變更後的登入頁面: <strong><a href=\"%1$s\">%2$s</a></strong>。請將這個頁面加入瀏覽器書籤。"
+
+#: classes/plugin.php:382
+msgid "To set a networkwide default, go to <a href=\"%s\">Network Settings</a>."
+msgstr "如需變更 [多站網路登入網址全域預設值] 設定，請前往 [<a href=\"%s\">多站網路設定</a>] 頁面。"
+
+#: classes/plugin.php:288
+msgid "Login url"
+msgstr "登入網址"
+
+#: classes/plugin.php:243
+msgid "Networkwide default"
+msgstr "多站網路登入網址全域預設值"
+
+#: classes/plugin.php:240 classes/plugin.php:369
+msgid "Need help? Try the <a href=\"%1$s\" target=\"_blank\">support forum</a>. This plugin is kindly brought to you by <a href=\"%2$s\" target=\"_blank\">WPServeur</a>"
+msgstr "如果使用上遇到問題，請前往<a href=\"%1$s\" target=\"_blank\">技術支援論壇</a>尋求協助。這個外掛由 <a href=\"%2$s\" target=\"_blank\">WPServeur</a> 開發提供。"
+
+#: classes/plugin.php:239
+msgid "This option allows you to set a networkwide default, which can be overridden by individual sites. Simply go to to the site’s permalink settings to change the url."
+msgstr "這項設定可讓多站網路管理員設定多站網路登入網址全域預設值，但個別網站的設定可覆寫這個預設值。個別網站如需變更這項設定，請前往 [永久連結] 變更登入網址。"
+
+#: classes/plugin.php:221
+msgid "WPS Hide Login could not be activated because you already have Rename wp-login.php active. Please uninstall rename wp-login.php to use WPS Hide Login"
+msgstr "由於這個網站已啟用 Rename wp-login.php 外掛，因此 WPS Hide Login 無法啟用。請先將 Rename wp-login.php 解除安裝，才能使用 WPS Hide Login。"
+
+#. Plugin Name of the plugin
+#: classes/plugin.php:215 classes/plugin.php:238 classes/plugin.php:701
+#: classes/plugin.php:710
+msgid "WPS Hide Login"
+msgstr "WPS Hide Login"
+
+#: classes/plugin.php:215
+msgid "Please upgrade to the latest version of WordPress to activate"
+msgstr "請升級至 WordPress 最新版本以啟用"

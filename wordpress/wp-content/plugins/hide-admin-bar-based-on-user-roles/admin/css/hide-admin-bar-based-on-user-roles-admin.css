@@ -1,0 +1,13 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+/* .rolesList input[type="checkbox"] { margin: 0px 10px 0px 10px;  }
+ .advertisement{
+ 	
+ }*/
+ .card { max-width: 100% !important; }
+ .main-panel{ width: calc(100% - 150px); }
+ .card .card-header.header-sm { padding: 6px 5px; height: 60px; }
+ #wpfooter{ display: none; }

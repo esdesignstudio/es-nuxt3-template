@@ -1,0 +1,1 @@
+<?php /* Template Name: 客製化版型C */ ?>

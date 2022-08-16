@@ -1,0 +1,65 @@
+{
+    "search.exclude": {
+        "wordpress/wp-content/plugins/": true,
+        "wordpress/wp-include/": true,
+        "wordpress/wp-admin/": true
+    },
+    "editor.insertSpaces": true, // 強制輸入空白
+    "editor.detectIndentation": false, // 關閉縮排偵測
+    "editor.tabSize": 4, // 編輯器字體大小
+    "editor.formatOnSave": false,
+    // ----- eslint, stylelint 設定 -----
+    "eslint.alwaysShowStatus": true,
+    "eslint.options": {
+        "extensions": [".html", ".js", ".vue"]
+    },
+    "eslint.workingDirectories": [
+        // 指定 ESLint 執行的工作目錄
+        "."
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.fixAll.stylelint": true
+    },
+    "css.validate": false,
+    "less.validate": false,
+    "scss.validate": false,
+    "stylelint.snippet": ["css", "scss", "vue"],
+    "stylelint.validate": ["css", "scss", "vue"],
+    // ----- Todo tree 設定 -----
+    "todo-tree.highlights.defaultHighlight": {
+        "foreground": "white",
+        "type": "text"
+    },
+    "todo-tree.general.tags": ["TODO", "FIXME", "BUG", "API", "MOCK", "REF", "NOTICE"],
+    "todo-tree.highlights.customHighlight": {
+        "TODO": {
+            "background": "#f0be29"
+        },
+        "FIXME": {
+            "icon": "$(flame)",
+            "background": "#f765ab"
+        },
+        "BUG": {
+            "icon": "$(bug)",
+            "background": "#ff0000"
+        },
+        "API": {
+            "icon": "$(cloud-download)",
+            "background": "#D94DFF"
+        },
+        "MOCK": {
+            "icon": "$(squirrel)",
+            "background": "#4cf21a"
+        },
+        "REF": {
+            "icon": "$(hubot)",
+            "background": "#00ddff"
+        },
+        "NOTICE": {
+            "background": "#ec9669"
+        }
+    },
+    "todo-tree.filtering.excludeGlobs": ["**/node_modules/*", "**/wp-content/plugins/*"],
+    "cSpell.words": ["blockstudio"]
+}

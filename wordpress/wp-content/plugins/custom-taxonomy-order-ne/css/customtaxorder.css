@@ -1,0 +1,77 @@
+/*
+Plugin Name: Custom Taxonomy Order NE
+Plugin URI: http://timelord.nl/
+*/
+
+/* Menu Icon */
+#icon-customtaxorder {
+	background-image: url('../images/icon-128x128.png');
+	background-repeat: no-repeat;
+	margin: 0 10px 10px 0;
+	float: left;
+	width: 45px;
+	height: 45px;
+	background-size: contain;
+}
+.customtaxorder h1 {
+	line-height: 45px;
+}
+
+.customtaxorder .order-widget {
+	width: 512px;
+}
+.customtaxorder #poststuff .order-widget {
+	float: left;
+	margin: 0 20px 20px 0;
+}
+.customtaxorder #sub-posts,
+.customtaxorder #go-sub-posts {
+	margin-top: 13px;
+}
+
+.customtaxorder .order-widget th {
+	padding-left: 12px;
+}
+.customtaxorder .metabox-holder h2.widget-top {
+	padding: 8px 12px;
+}
+
+.customtaxorder ul#custom-order-list {
+	list-style: none;
+}
+.customtaxorder li.lineitem {
+	border: 1px solid #dfdfdf;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	background-color: #fff;
+	cursor: move;
+	margin: 3px auto;
+	padding: 4px 8px 2px;
+	height: 24px;
+	line-height: 24px;
+}
+.customtaxorder li.outer {
+	background-color: #f5f5f5;
+}
+.customtaxorder .sortable-placeholder{
+	border: 1px dashed #dfdfdf;
+	margin: 3px auto;
+	height: 30px;
+}
+.customtaxorder #publishing-action-return-sub-posts {
+	margin: 0 0 10px 0;
+}
+
+
+/* Dark Mode */
+.dark-mode .customtaxorder h2.widget-top,
+.dark-mode .customtaxorder .widget h2.widget-top {
+	border: 1px solid #191f25;
+	background-color: #32373c;
+	color: #bbc8dd;
+}
+.dark-mode .customtaxorder li.lineitem {
+	border: 1px solid #191f25;
+	background-color: #32373c;
+	color: #bbc8dd;
+}

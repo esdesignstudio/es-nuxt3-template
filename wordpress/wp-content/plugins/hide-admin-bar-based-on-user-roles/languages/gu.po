@@ -1,0 +1,109 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hide Admin Bar Based on User Roles\n"
+"POT-Creation-Date: 2020-05-05 23:32+0530\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: WPTools\n"
+"Language: gu\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"Plural-Forms: nplurals=2; plural=(n==0 || n==1);\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-Basepath: ../admin\n"
+"X-Poedit-SearchPath-0: class-hide-admin-bar-based-on-user-roles-admin.php\n"
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:127
+msgid "Hide Admin Bar Settings"
+msgstr "સંચાલક પટ્ટી સુયોજનો ને છુપાવો"
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:148
+msgid "Hide Admin Bar Based on User Roles"
+msgstr "વપરાશકર્તા ભૂમિકાઓ પર આધારિત સંચાલક પટ્ટી છુપાવો"
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:153
+msgid "Hide Admin Bar for All Users"
+msgstr "બધા વપરાશકર્તાઓ માટે એડમિન પટ્ટી છુપાવો"
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:171
+msgid "Hide Admin Bar for All Guests Users"
+msgstr "બધા મહેમાનો વપરાશકર્તાઓ માટે એડમિન પટ્ટી છુપાવો"
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:188
+msgid "User Roles"
+msgstr "વપરાશકર્તા ભૂમિકાઓ"
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:188
+msgid "Hide admin bar for selected user roles."
+msgstr "પસંદ થયેલ વપરાશકર્તા ભૂમિકાઓ માટે સંચાલક પટ્ટી ને છુપાવો."
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:215
+msgid "Capabilities Blacklist"
+msgstr "Capabilities Blacklist"
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:217
+msgid "Hide admin bar for selected user capabilities"
+msgstr "વપરાશકર્તા ભૂમિકાઓ પર આધારિત સંચાલક પટ્ટી છુપાવો"
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:232
+msgid "Save Changes"
+msgstr "ફેરફારો સંગ્રહ"
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:236
+msgid ""
+"You can reset plugin settings by visiting this url without login to admin "
+"panel. Keep it safe."
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:267
+msgid "Download My New Plugin"
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:273
+msgid "Advanced Page Visit Counter"
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:275
+msgid "18000+ Active Users.."
+msgstr "18000+ સક્રિય વપરાશકર્તાઓ.."
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:276
+msgid ""
+"This plugin will count the total visits of your website or ecommerce store."
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:277
+msgid "Download Now"
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:287
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:293
+#: class-hide-admin-bar-based-on-user-roles-admin.php:311
+msgid "Ankit Panchal"
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:294
+msgid ""
+"I am WordPress Fan, Developer and Contributor. <br />WordPress Plugin "
+"Author, WordPress Contributor - TemplateMonster Certified Developer"
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:295
+#: class-hide-admin-bar-based-on-user-roles-admin.php:313
+msgid "View Profile"
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:305
+msgid "Follow Me On WordPress"
+msgstr ""
+
+#: class-hide-admin-bar-based-on-user-roles-admin.php:312
+msgid ""
+"I am WordPress Fan, Developer and Contributor. <br />WordPress Plugin "
+"Author, WordPress Contributor - TemplateMonster Certified Developer</p>"
+msgstr ""

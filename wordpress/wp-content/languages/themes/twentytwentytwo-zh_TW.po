@@ -1,0 +1,942 @@
+# Translation of Themes - Twenty Twenty-Two in Chinese (Taiwan)
+# This file is distributed under the same license as the Themes - Twenty Twenty-Two package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-24 21:39:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Themes - Twenty Twenty-Two\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours."
+msgstr "Twenty Twenty-Two 建立在堅實的設計基礎上，並具備讓每個人擁有高度獨特性網站的理想。這個佈景主題的精細樣式靈感來自於鳥類的多樣性及多變性，排版樣式輕巧卻穩重，調色盤借鑒大自然，版面配置元素恰如其份的分佈在頁面上。Twenty Twenty-Two 的豐富之處在於它的可自訂性。佈景主題得益於 WordPress 5.9 導入的全站編輯功能，這代表網站上個別頁面的色彩、排版樣式及版面配置均可依需求進行自訂。這個佈景主題同時內建了大量區塊版面配置，僅需幾個點擊便可使用各種專業設計的版面配置。無論是要建置一頁式網站、部落格、商務網站或作品集，Twenty Twenty-Two 都能協助使用者建立獨一無二的網站。"
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Two"
+msgstr "Twenty Twenty-Two"
+
+#: styles/swiss.json
+msgctxt "Duotone name"
+msgid "Default filter"
+msgstr "預設濾鏡"
+
+#: styles/swiss.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: styles/swiss.json
+msgctxt "Style variation name"
+msgid "Swiss"
+msgstr "瑞士"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM Plex Mono"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Sans"
+msgstr "IBM Plex Sans"
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr "粉紅色"
+
+#: styles/blue.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM Sans"
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr "藍色"
+
+#: inc/patterns/hidden-404.php:14
+msgid "Search"
+msgstr "搜尋"
+
+#: inc/patterns/hidden-404.php:14
+msgctxt "label"
+msgid "Search"
+msgstr "搜尋"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "頁尾"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Dark, small)"
+msgstr "頁首 (深色、小型)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Dark, large)"
+msgstr "頁首 (深色、大型)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "頁首"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (No Separators)"
+msgstr "頁面 (沒有分隔符號)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Post (No Separators)"
+msgstr "單篇文章 (沒有分隔符號)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (Large Header)"
+msgstr "頁面 (大型頁首)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr "空白頁面"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and tertiary"
+msgstr "主要色彩及第三色彩"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and secondary"
+msgstr "主要色彩及次要色彩"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and background"
+msgstr "主要色彩及背景色彩"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and tertiary"
+msgstr "前景色彩及第三色彩"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and secondary"
+msgstr "前景色彩及次要色彩"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and background"
+msgstr "前景色彩及背景色彩"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to tertiary"
+msgstr "背景色彩對角漸層至第三色彩"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal tertiary to background"
+msgstr "第三色彩對角漸層至背景色彩"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to secondary"
+msgstr "背景色彩對角漸層至次要色彩"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background"
+msgstr "次要色彩對角漸層至背景色彩"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to foreground"
+msgstr "主要色彩對角漸層至前景色彩"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical tertiary to background"
+msgstr "第三色彩垂直漸層至背景色彩"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to background"
+msgstr "次要色彩垂直漸層至背景色彩"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to tertiary"
+msgstr "次要色彩垂直漸層至第三色彩"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "第三色彩"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "次要色彩"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "主要色彩"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "背景色彩"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr "前景色彩"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr "Source Serif Pro"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "系統字型"
+
+#: inc/patterns/query-text-grid.php:6
+msgid "Text-based grid of posts"
+msgstr "文字為主格狀文章"
+
+#: inc/patterns/query-simple-blog.php:6
+msgid "Simple blog posts"
+msgstr "簡易部落格文章"
+
+#: inc/patterns/query-large-titles.php:6
+msgid "Large post titles"
+msgstr "大型文章標題"
+
+#: inc/patterns/query-irregular-grid.php:6
+msgid "Irregular grid of posts"
+msgstr "不規則格狀文章"
+
+#: inc/patterns/query-image-grid.php:6
+msgid "Grid of image posts"
+msgstr "格狀圖片文章"
+
+#: inc/patterns/query-grid.php:6
+msgid "Grid of posts"
+msgstr "格狀文章"
+
+#: inc/patterns/query-default.php:6
+msgid "Default posts"
+msgstr "預設文章"
+
+#: inc/patterns/page-sidebar-poster.php:56
+msgid "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
+msgstr "桃園美術館<br>桃園市桃園區<br>縣府路 1 號"
+
+#: inc/patterns/page-sidebar-poster.php:52
+msgid "Location"
+msgstr "地點"
+
+#: inc/patterns/page-sidebar-poster.php:44
+msgid "February, 12 2021"
+msgstr "2021 年 2 月 12 日"
+
+#: inc/patterns/page-sidebar-poster.php:40
+msgid "Date"
+msgstr "日期"
+
+#: inc/patterns/page-sidebar-poster.php:14
+msgid "<em>Flutter</em>, a collection of bird-related ephemera"
+msgstr "<strong>吉光片羽</strong>，鳥類精彩瞬間攝影展"
+
+#: inc/patterns/page-sidebar-poster.php:6
+msgid "Poster with right sidebar"
+msgstr "包含右側資訊欄的宣傳圖片"
+
+#: inc/patterns/page-sidebar-grid-posts.php:6
+msgid "Grid of posts with left sidebar"
+msgstr "包含左側資訊欄的格狀部落格文章"
+
+#: inc/patterns/page-sidebar-blog-posts.php:6
+msgid "Blog posts with left sidebar"
+msgstr "包含左側資訊欄的部落格文章"
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:80
+msgid "Tags"
+msgstr "標籤"
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:6
+msgid "Blog posts with right sidebar"
+msgstr "包含右側資訊欄的部落格文章"
+
+#: inc/patterns/page-layout-two-columns.php:58
+msgid "POSTS"
+msgstr "文章"
+
+#: inc/patterns/page-layout-two-columns.php:21
+msgid "WELCOME"
+msgstr "歡迎造訪"
+
+#: inc/patterns/page-layout-two-columns.php:10
+msgid "<em>Goldfinch </em><br><em>&amp; Sparrow</em>"
+msgstr "<strong>金翅雀</strong><br><strong>及麻雀</strong>"
+
+#: inc/patterns/page-layout-two-columns.php:6
+msgid "Page layout with two columns"
+msgstr "包含 2 欄的頁面版面配置"
+
+#: inc/patterns/page-layout-image-text-and-video.php:53
+msgid "Oh hello. My name’s Angelo, and you’ve found your way to my blog. I write about a range of topics, but lately I’ve been sharing my hopes for next year."
+msgstr "大家好，我是聲谷，這是我的個人網站；我撰寫了一系列相關主題，但我最近一直在分享我對於明年的新展望。"
+
+#: inc/patterns/page-layout-image-text-and-video.php:42
+msgid "An illustration of a bird in flight"
+msgstr "飛翔的鳥插圖"
+
+#: inc/patterns/page-layout-image-text-and-video.php:21
+msgid "Screening"
+msgstr "公開放映"
+
+#: inc/patterns/page-layout-image-text-and-video.php:6
+msgid "Page layout with image, text and video"
+msgstr "包含圖片、文字及視訊的頁面版面配置"
+
+#: inc/patterns/page-layout-image-and-text.php:27
+#: inc/patterns/page-layout-two-columns.php:36
+msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
+msgstr "大家好，我是聲谷，負責這個部落格的營運。我出生於台南，但目前住在高雄。我以寫作為職，或許你是從《<a href=\"#\">鷹揚天下</a>》及《<a href=\"#\">哀傷之鴿</a>》等出版品知道我的名字。<br><br>我通常會在這個部落格記錄鳥類，以及我覺得有趣的事物。如果你在這裡發現任何錯誤，請三緘其口。<br><br>如果那不是你所愛的，<a href=\"#\">則必然是我所愛的</a>，而且是我的最愛。"
+
+#: inc/patterns/page-layout-image-and-text.php:15
+msgctxt "Short for to be determined"
+msgid "TBD"
+msgstr "有待完善"
+
+#: inc/patterns/page-layout-image-and-text.php:10
+msgid "<em>Watching Birds </em><br><em>in the Garden</em>"
+msgstr "<strong>在花園中</strong><br><strong>賞鳥</strong>"
+
+#: inc/patterns/page-layout-image-and-text.php:6
+msgid "Page layout with image and text"
+msgstr "包含圖片及文字的頁面版面配置"
+
+#: inc/patterns/page-about-solid-color.php:22
+msgid "Oh hello. My name’s Edvard, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show every Tuesday evening at 11PM EDT. Listen in sometime!"
+msgstr "大家好，我是子柳，這是我的個人網站。我是一位賞鳥者，同時我也在台灣時間每週二晚間 11 點播出自己的廣播節目。歡迎收聽。"
+
+#: inc/patterns/page-about-solid-color.php:14
+msgid "Edvard<br>Smith"
+msgstr "朱<br>子柳"
+
+#: inc/patterns/page-about-solid-color.php:6
+msgid "About page on solid color background"
+msgstr "純色背景的〈關於〉頁面"
+
+#: inc/patterns/page-about-simple-dark.php:22
+msgid "Oh hello. My name’s Jesús, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "大家好，我是無忌，這是我的個人網站。我是一位賞鳥者，同時我也在台灣時間每週二晚間 11 點播出自己的廣播節目。"
+
+#: inc/patterns/page-about-simple-dark.php:18
+msgid "Jesús<br>Rodriguez"
+msgstr "張<br>無忌"
+
+#: inc/patterns/page-about-simple-dark.php:6
+msgid "Simple dark about page"
+msgstr "簡易深色〈關於〉頁面"
+
+#: inc/patterns/page-about-media-right.php:20
+msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "大家好，我是芷若，這是我的個人網站。我是一位賞鳥者，同時我也在台灣時間每週二晚間 11 點播出自己的廣播節目。"
+
+#: inc/patterns/page-about-media-right.php:16
+msgid "Emery<br>Driscoll"
+msgstr "周<br>芷若"
+
+#: inc/patterns/page-about-media-right.php:9
+msgid "An image of a bird flying"
+msgstr "飛翔的鳥圖片"
+
+#: inc/patterns/page-about-media-right.php:6
+msgid "About page with media on the right"
+msgstr "在右側顯示媒體的〈關於〉頁面"
+
+#: inc/patterns/page-about-media-left.php:21
+msgid "Oh hello. My name’s Doug, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "大家好，我是破虜，這是我的個人網站。我是一位賞鳥者，同時我也在台灣時間每週二晚間 11 點播出自己的廣播節目。"
+
+#: inc/patterns/page-about-media-left.php:17
+msgid "Stilton"
+msgstr "破虜"
+
+#: inc/patterns/page-about-media-left.php:17
+msgid "Doug"
+msgstr "郭"
+
+#: inc/patterns/page-about-media-left.php:9
+#: inc/patterns/page-sidebar-poster.php:26
+msgid "Image of a bird on a branch"
+msgstr "樹枝上的鳥插圖"
+
+#: inc/patterns/page-about-media-left.php:6
+msgid "About page with media on the left"
+msgstr "在左側顯示媒體的〈關於〉頁面"
+
+#: inc/patterns/page-about-links.php:21
+msgid "A podcast about birds"
+msgstr "談論鳥類的 Podcast"
+
+#: inc/patterns/page-about-links.php:17
+msgid "Swoop"
+msgstr "鳥瞰天下"
+
+#: inc/patterns/page-about-links.php:6
+msgid "About page links"
+msgstr "〈關於〉頁面連結"
+
+#: inc/patterns/page-about-links-dark.php:42
+#: inc/patterns/page-about-links.php:46
+msgid "About the hosts"
+msgstr "關於主辦單位"
+
+#: inc/patterns/page-about-links-dark.php:38
+#: inc/patterns/page-about-links.php:42
+msgid "Support the show"
+msgstr "支持節目"
+
+#: inc/patterns/page-about-links-dark.php:34
+#: inc/patterns/page-about-links.php:38
+msgid "Listen on Spotify"
+msgstr "在 Spotify 上聆聽"
+
+#: inc/patterns/page-about-links-dark.php:30
+#: inc/patterns/page-about-links.php:34
+msgid "Listen on iTunes Podcasts"
+msgstr "在 iTunes Podcasts 上聆聽"
+
+#: inc/patterns/page-about-links-dark.php:26
+#: inc/patterns/page-about-links.php:30
+msgid "Watch our videos"
+msgstr "觀看影片"
+
+#: inc/patterns/page-about-links-dark.php:17
+msgid "A trouble of hummingbirds"
+msgstr "蜂鳥的小小煩惱"
+
+#: inc/patterns/page-about-links-dark.php:13
+#: inc/patterns/page-about-links.php:10
+msgid "Logo featuring a flying bird"
+msgstr "飛翔的鳥特色標誌"
+
+#: inc/patterns/page-about-links-dark.php:6
+msgid "About page links (dark)"
+msgstr "〈關於〉頁面連結 (深色)"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:6
+msgid "About page with large image and buttons"
+msgstr "包含大型尺寸圖片及按鈕的〈關於〉頁面"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:59
+msgid "Join my mailing list"
+msgstr "加入郵寄清單"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:51
+msgid "Learn about my process"
+msgstr "了解我的工序"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:43
+msgid "Read about me"
+msgstr "進一步了解"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:33
+msgid "Take a class"
+msgstr "精選課程研習"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:25
+msgid "Support my studio"
+msgstr "支持我的工作室"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:17
+msgid "Purchase my work"
+msgstr "購買我的作品"
+
+#: inc/patterns/hidden-bird.php:9 inc/patterns/hidden-heading-and-bird.php:10
+msgid "Heading and bird image"
+msgstr "標題及鳥類圖片"
+
+#: inc/patterns/hidden-404.php:12
+msgid "This page could not be found. Maybe try a search?"
+msgstr "找不到符合條件的頁面，請使用搜尋功能進行查詢。"
+
+#: inc/patterns/hidden-404.php:9
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr "404 錯誤"
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr "404 內容"
+
+#: inc/patterns/header-with-tagline.php:6
+msgid "Header with tagline"
+msgstr "包含網站說明的頁首"
+
+#: inc/patterns/header-title-navigation-social.php:6
+msgid "Title, navigation, and social links header"
+msgstr "包含網站標題、導覽列及社交網路服務連結的頁首"
+
+#: inc/patterns/header-title-and-button.php:6
+msgid "Title and button header"
+msgstr "包含網站標題及按鈕的頁首"
+
+#: inc/patterns/header-text-only-with-tagline-black-background.php:6
+msgid "Text-only header with tagline and black background"
+msgstr "包含網站說明、僅顯示文字的黑色背景頁首"
+
+#: inc/patterns/header-text-only-salmon-background.php:6
+msgid "Text-only header with salmon background"
+msgstr "僅顯示文字的淡橙紅背景頁首"
+
+#: inc/patterns/header-text-only-green-background.php:6
+msgid "Text-only header with green background"
+msgstr "僅顯示文字的綠色背景頁首"
+
+#: inc/patterns/header-stacked.php:6
+msgid "Logo and navigation header"
+msgstr "包含網站標誌及導覽列的頁首"
+
+#: inc/patterns/header-small-dark.php:6
+msgid "Small header with dark background"
+msgstr "小型深色背景頁首"
+
+#: inc/patterns/header-logo-navigation-social-black-background.php:6
+msgid "Logo, navigation, and social links header with black background"
+msgstr "包含網站標誌、導覽列及社交網路服務連結的黑色背景頁首"
+
+#: inc/patterns/header-logo-navigation-offset-tagline.php:6
+msgid "Logo, navigation, and offset tagline Header"
+msgstr "包含網站標誌、導覽列及交錯網站說明的頁首"
+
+#: inc/patterns/header-logo-navigation-gray-background.php:6
+msgid "Logo and navigation header with gray background"
+msgstr "包含網站標誌及導覽列的灰色背景頁首"
+
+#: inc/patterns/header-large-dark.php:24
+#: inc/patterns/hidden-heading-and-bird.php:14
+msgid "<em>The Hatchery</em>: a blog about my adventures in bird watching"
+msgstr "<strong>生生不息：</strong>記錄我的賞鳥旅程的部落格"
+
+#: inc/patterns/header-large-dark.php:6
+msgid "Large header with dark background"
+msgstr "大型深色背景頁首"
+
+#: inc/patterns/header-image-background.php:11
+msgid "Illustration of a flying bird"
+msgstr "飛翔的鳥插圖"
+
+#: inc/patterns/header-image-background.php:6
+msgid "Header with image background"
+msgstr "包含圖片背景的頁首"
+
+#: inc/patterns/header-image-background-overlay.php:6
+msgid "Header with image background and overlay"
+msgstr "包含圖片背景及覆疊的頁首"
+
+#: inc/patterns/header-default.php:6
+msgid "Default header"
+msgstr "預設頁首"
+
+#: inc/patterns/header-centered-title-navigation-social.php:6
+msgid "Centered header with navigation, social links, and salmon background"
+msgstr "包含導覽列、社交網路服務連結的淡橙紅背景置中頁首"
+
+#: inc/patterns/header-centered-logo.php:6
+msgid "Header with centered logo"
+msgstr "網站標誌置中的頁首"
+
+#: inc/patterns/header-centered-logo-black-background.php:6
+msgid "Header with centered logo and black background"
+msgstr "網站標誌置中的黑色背景頁首"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:31
+msgid "Learn More"
+msgstr "進一步了解"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:16
+msgid "Welcome to<br>the Aviary"
+msgstr "歡迎觀看<br>展羽鳥展"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:6
+msgid "Wide image with introduction and buttons"
+msgstr "包含簡介內容及按鈕的寬幅圖片"
+
+#: inc/patterns/general-video-trailer.php:16
+#: inc/patterns/general-wide-image-intro-buttons.php:22
+msgid "A film about hobbyist bird watchers, a catalog of different birds, paired with the noises they make. Each bird is listed by their scientific name so things seem more official."
+msgstr "一部業餘賞鳥者製作的電影，展示不同品種的鳥類，以及它們發出的聲音。不同種的鳥類均列出其學名，讓整部影片看起來更為正式。"
+
+#: inc/patterns/general-video-trailer.php:12
+#: inc/patterns/page-layout-image-text-and-video.php:49
+msgid "Extended Trailer"
+msgstr "加長版預告"
+
+#: inc/patterns/general-video-trailer.php:6
+msgid "Video trailer"
+msgstr "視訊預告片"
+
+#: inc/patterns/general-video-header-details.php:41
+msgid "Angelo Tso<br>Edward Stilton<br>Amy Jensen<br>Boston Bell<br>Shay Ford"
+msgstr "莫聲谷<br>韋一笑<br>常遇春<br>楊不悔<br>何足道"
+
+#: inc/patterns/general-video-header-details.php:35
+msgid "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Rowan Price"
+msgstr "張無忌<br>郭破虜<br>周芷若<br>殷素素<br>紀曉芙"
+
+#: inc/patterns/general-video-header-details.php:29
+msgid "Featuring"
+msgstr "演出人員"
+
+#: inc/patterns/general-video-header-details.php:11
+#: inc/patterns/page-layout-image-text-and-video.php:11
+msgid "<em>Warble</em>, a film about <br>hobbyist bird watchers."
+msgstr "<strong>振翅高歌</strong>，一部關於業餘賞鳥者的電影。"
+
+#: inc/patterns/general-video-header-details.php:6
+msgid "Video with header and details"
+msgstr "包含標題及詳細資料的視訊"
+
+#: inc/patterns/general-two-images-text.php:42
+#: inc/patterns/general-wide-image-intro-buttons.php:35
+#: inc/patterns/page-layout-image-text-and-video.php:30
+msgid "Buy Tickets"
+msgstr "購買門票"
+
+#: inc/patterns/general-two-images-text.php:29
+#: inc/patterns/page-layout-image-text-and-video.php:25
+msgid "May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr "2022 年 5 月 14 日晚間 7:00<br>高雄國家劇院<br>高雄市苓雅區<br>四維三路 2 號"
+
+#: inc/patterns/general-two-images-text.php:25
+msgid "SCREENING"
+msgstr "公開放映"
+
+#: inc/patterns/general-two-images-text.php:17
+#: inc/patterns/general-wide-image-intro-buttons.php:10
+#: inc/patterns/header-large-dark.php:29 inc/patterns/header-small-dark.php:25
+#: inc/patterns/hidden-bird.php:12 inc/patterns/hidden-heading-and-bird.php:19
+msgid "Illustration of a bird flying."
+msgstr "飛翔的鳥插圖。"
+
+#: inc/patterns/general-two-images-text.php:11
+msgid "Illustration of a bird sitting on a branch."
+msgstr "站在樹枝上的鳥插圖。"
+
+#: inc/patterns/general-two-images-text.php:6
+msgid "Two images with text"
+msgstr "包含文字的 2 張圖片"
+
+#: inc/patterns/general-subscribe.php:16
+msgid "Join our mailing list"
+msgstr "加入我們的郵寄清單"
+
+#: inc/patterns/general-subscribe.php:11
+msgid "Watch birds<br>from your inbox"
+msgstr "在收件匣中<br>賞鳥"
+
+#: inc/patterns/general-subscribe.php:6
+msgid "Subscribe callout"
+msgstr "訂閱行動號召"
+
+#: inc/patterns/general-pricing-table.php:84
+msgid "$150"
+msgstr "NTD 4500"
+
+#: inc/patterns/general-pricing-table.php:79
+msgid "Play a leading role for our community by joining at the Falcon level. This level earns you a seat on our board, where you can help plan future birdwatching expeditions."
+msgstr "加入獵鷹級，成為社群領袖。加入這個等級，會成為我們董事會的一員，並協助我們規劃未來的賞鳥活動。"
+
+#: inc/patterns/general-pricing-table.php:75
+msgid "Falcon"
+msgstr "獵鷹"
+
+#: inc/patterns/general-pricing-table.php:71
+msgctxt "Third item in a numbered list."
+msgid "3"
+msgstr "3"
+
+#: inc/patterns/general-pricing-table.php:56
+msgid "$75"
+msgstr "NTD 2250"
+
+#: inc/patterns/general-pricing-table.php:51
+msgid "Join at the Sparrow level and become a member of our flock! You’ll receive our newsletter, plus a bird pin that you can wear with pride when you’re out in nature."
+msgstr "加入麻雀級，立刻成為我們的成員。你會收到我們寄送的電子報，還有一枚鳥類別針，讓你倘佯在大自然中時，配戴起來更加怡然自得。"
+
+#: inc/patterns/general-pricing-table.php:47
+msgid "Sparrow"
+msgstr "麻雀"
+
+#: inc/patterns/general-pricing-table.php:43
+msgctxt "Second item in a numbered list."
+msgid "2"
+msgstr "2"
+
+#: inc/patterns/general-pricing-table.php:28
+msgid "$25"
+msgstr "NTD 750"
+
+#: inc/patterns/general-pricing-table.php:23
+msgid "Help support our growing community by joining at the Pigeon level. Your support will help pay our writers, and you’ll get access to our exclusive newsletter."
+msgstr "加入鴿子級會員便能支持這個成長中的社群。你的會費能夠協助我們支付作者稿酬，並且能閱讀我們推出的獨家內容電子報。"
+
+#: inc/patterns/general-pricing-table.php:19
+msgid "Pigeon"
+msgstr "鴿子"
+
+#: inc/patterns/general-pricing-table.php:15
+msgctxt "First item in a numbered list."
+msgid "1"
+msgstr "1"
+
+#: inc/patterns/general-pricing-table.php:6
+msgid "Pricing table"
+msgstr "價目表"
+
+#: inc/patterns/general-list-events.php:103
+msgid "Emery Driscoll"
+msgstr "周芷若"
+
+#: inc/patterns/general-list-events.php:97
+msgid "May 20th, 2022, 6 PM"
+msgstr "2022 年 5 月 20 日傍晚 6:00"
+
+#: inc/patterns/general-list-events.php:79
+msgid "Amy Jensen"
+msgstr "常遇春"
+
+#: inc/patterns/general-list-events.php:73
+msgid "May 18th, 2022, 7 PM"
+msgstr "2022 年 5 月 18 日晚間 7:00"
+
+#: inc/patterns/general-list-events.php:61
+#: inc/patterns/general-list-events.php:109
+msgid "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
+msgstr "台南國家劇院<br>台南市安平區<br>永華路二段 6 號"
+
+#: inc/patterns/general-list-events.php:55
+msgid "Doug Stilton"
+msgstr "郭破虜"
+
+#: inc/patterns/general-list-events.php:49
+msgid "May 16th, 2022, 6 PM"
+msgstr "2022 年 5 月 16 日傍晚 6:00"
+
+#: inc/patterns/general-list-events.php:37
+#: inc/patterns/general-list-events.php:85
+msgid "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr "高雄國家劇院<br>高雄市苓雅區<br>四維三路 2 號"
+
+#: inc/patterns/general-list-events.php:31
+msgid "Jesús Rodriguez"
+msgstr "張無忌"
+
+#: inc/patterns/general-list-events.php:25
+msgid "May 14th, 2022, 6 PM"
+msgstr "2022 年 5 月 14 日下午 6:00"
+
+#: inc/patterns/general-list-events.php:11
+msgid "Speaker Series"
+msgstr "講者分享系列"
+
+#: inc/patterns/general-list-events.php:6
+msgid "List of events"
+msgstr "活動清單"
+
+#: inc/patterns/general-layered-images-with-duotone.php:10
+#: inc/patterns/page-sidebar-blog-posts-right.php:58
+msgid "Illustration of a flying bird."
+msgstr "飛翔的鳥插圖"
+
+#: inc/patterns/general-layered-images-with-duotone.php:9
+#: inc/patterns/header-image-background-overlay.php:11
+msgid "Painting of ducks in the water."
+msgstr "水上鴨子的畫作。"
+
+#: inc/patterns/general-layered-images-with-duotone.php:6
+msgid "Layered images with duotone"
+msgstr "雙色調的多層圖片組合"
+
+#: inc/patterns/general-large-list-names.php:30
+msgid "Read more"
+msgstr "進一步了解"
+
+#: inc/patterns/general-large-list-names.php:21
+msgid "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
+msgstr "張無忌、郭破虜、周芷若、殷素素、紀曉芙、莫聲谷、韋一笑、常遇春、楊不悔、何足道、穆念慈、尹志平、林朝英、王重陽、段智興、周伯通、楊鐵心、陸乘風、穆念慈。"
+
+#: inc/patterns/general-large-list-names.php:11
+#: inc/patterns/page-sidebar-poster.php:32
+msgid "An icon representing binoculars."
+msgstr "代表雙筒望遠鏡的圖示。"
+
+#: inc/patterns/general-large-list-names.php:6
+msgid "Large list of names"
+msgstr "大型尺寸名稱清單"
+
+#: inc/patterns/general-image-with-caption.php:15
+msgid "A beautiful bird featuring a surprising set of color feathers."
+msgstr "彩色羽毛令人驚嘆連連的美麗鳥類。"
+
+#: inc/patterns/general-image-with-caption.php:11
+msgid "Hummingbird"
+msgstr "蜂鳥"
+
+#: inc/patterns/general-image-with-caption.php:10
+msgid "Hummingbird illustration"
+msgstr "蜂鳥插圖"
+
+#: inc/patterns/general-image-with-caption.php:6
+msgid "Image with caption"
+msgstr "包含媒體說明文字的圖片"
+
+#: inc/patterns/general-featured-posts.php:6
+msgid "Featured posts"
+msgstr "精選文章"
+
+#: inc/patterns/general-divider-light.php:6
+msgid "Divider with image and color (light)"
+msgstr "包含圖片的分隔線 (淺色)"
+
+#: inc/patterns/general-divider-dark.php:6
+msgid "Divider with image and color (dark)"
+msgstr "包含圖片的分隔線 (深色)"
+
+#: inc/patterns/footer-title-tagline-social.php:6
+msgid "Footer with title, tagline, and social links on a dark background"
+msgstr "包含網站標題、網站說明及社交網路服務連結的深色背景頁尾"
+
+#: inc/patterns/footer-social-copyright.php:6
+msgid "Footer with social links and copyright"
+msgstr "包含社交網路服務連結及著作權內容文字的頁尾"
+
+#: inc/patterns/footer-query-title-citation.php:6
+msgid "Footer with query, title, and citation"
+msgstr "包含查詢、網站標題及引文的頁尾"
+
+#: inc/patterns/footer-query-images-title-citation.php:6
+msgid "Footer with query, featured images, title, and citation"
+msgstr "包含查詢、精選圖片、網站標題及引文的頁尾"
+
+#: inc/patterns/footer-navigation.php:6
+msgid "Footer with navigation and citation"
+msgstr "包含導覽列及引文的頁尾"
+
+#: inc/patterns/footer-navigation-copyright.php:20
+#: inc/patterns/footer-social-copyright.php:24
+msgid "© Site Title"
+msgstr "© 網站標題"
+
+#: inc/patterns/footer-navigation-copyright.php:6
+msgid "Footer with navigation and copyright"
+msgstr "包含導覽列及著作權內容文字的頁尾"
+
+#: inc/patterns/footer-logo.php:6
+msgid "Footer with logo and citation"
+msgstr "包含網站標誌及引文的頁尾"
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr "預設頁尾"
+
+#: inc/patterns/footer-dark.php:6
+msgid "Dark footer with title and citation"
+msgstr "包含網站標題及引文的深色頁尾"
+
+#: inc/patterns/footer-blog.php:50 inc/patterns/footer-dark.php:18
+#: inc/patterns/footer-default.php:18 inc/patterns/footer-logo.php:18
+#: inc/patterns/footer-navigation.php:20
+#: inc/patterns/footer-query-images-title-citation.php:35
+#: inc/patterns/footer-query-title-citation.php:33
+msgid "https://wordpress.org"
+msgstr "https://tw.wordpress.org"
+
+#. Translators: WordPress link.
+#: inc/patterns/footer-blog.php:49 inc/patterns/footer-dark.php:17
+#: inc/patterns/footer-default.php:17 inc/patterns/footer-logo.php:17
+#: inc/patterns/footer-navigation.php:19
+#: inc/patterns/footer-query-images-title-citation.php:34
+#: inc/patterns/footer-query-title-citation.php:32
+msgid "Proudly powered by %s"
+msgstr "本站採用 %s 建置"
+
+#: inc/patterns/footer-blog.php:31
+#: inc/patterns/page-sidebar-blog-posts-right.php:74
+msgid "Categories"
+msgstr "分類"
+
+#: inc/patterns/footer-blog.php:23 inc/patterns/general-featured-posts.php:10
+msgid "Latest posts"
+msgstr "最新文章"
+
+#: inc/patterns/footer-blog.php:6
+msgid "Blog footer"
+msgstr "部落格頁尾"
+
+#: inc/patterns/footer-about-title-logo.php:17 inc/patterns/footer-blog.php:17
+msgid "We are a rogue collective of bird watchers. We’ve been known to sneak through fences, climb perimeter walls, and generally trespass in order to observe the rarest of birds."
+msgstr "我們是很草根的賞鳥團體。大家都知道，我們會偷偷穿過柵欄、爬過圍牆，並且穿過層層限制，只為了觀察最稀有的鳥類。"
+
+#: inc/patterns/footer-about-title-logo.php:13 inc/patterns/footer-blog.php:13
+msgid "About us"
+msgstr "關於我們"
+
+#: inc/patterns/footer-about-title-logo.php:6
+msgid "Footer with text, title, and logo"
+msgstr "包含文字、網站標題及網站標誌的頁尾"
+
+#: inc/block-patterns.php:21
+msgid "Pages"
+msgstr "頁面"
+
+#: inc/block-patterns.php:20
+msgid "Query"
+msgstr "查詢"
+
+#: inc/block-patterns.php:19
+msgid "Headers"
+msgstr "頁首"
+
+#: inc/block-patterns.php:18
+msgid "Footers"
+msgstr "頁尾"
+
+#: inc/block-patterns.php:17
+msgid "Featured"
+msgstr "精選"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentytwentytwo/"
+msgstr "https://tw.wordpress.org/themes/twentytwentytwo/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://tw.wordpress.org/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "WordPress 團隊"
