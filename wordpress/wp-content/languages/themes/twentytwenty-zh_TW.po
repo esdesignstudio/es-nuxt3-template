@@ -7,27 +7,25 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
 "Language: zh_TW\n"
 "Project-Id-Version: Themes - Twenty Twenty\n"
 
 #. Description of the theme
-#, gp-priority: high
 msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
 msgstr "Twenty Twenty 這個預設佈景主題的設計，主要在於充分利用區塊編輯器的彈性。組織及企業能使用 [群組] 及 [欄位] 區塊建立各種版面配置的動態到達網頁，置中的內容欄位及經過微調的排版也讓這個佈景主題相當適合部落格網站。完整的編輯器樣式讓內容創作者在發佈前對內容在網站前端的外觀更有概念，而網站設計人員在外觀自訂器中可以變更背景色彩及強調色彩，讓網站更加客製化。網站中全部元素的色彩會依據選取的色彩自動計算，確保網站訪客能以高對比色彩的方式檢視網站。"
 
 #. Theme Name of the theme
 #: inc/block-patterns.php:20
-#, gp-priority: high
 msgid "Twenty Twenty"
 msgstr "Twenty Twenty"
 
-#: classes/class-twentytwenty-customize.php:131
+#: classes/class-twentytwenty-customize.php:130
 msgctxt "color"
 msgid "Custom"
 msgstr "自訂色彩"
 
-#: classes/class-twentytwenty-customize.php:130
+#: classes/class-twentytwenty-customize.php:129
 msgctxt "color"
 msgid "Default"
 msgstr "預設色彩"
@@ -142,7 +140,7 @@ msgstr "主要色彩"
 msgid "Nothing Found"
 msgstr "找不到符合條件的結果"
 
-#: classes/class-twentytwenty-customize.php:251
+#: classes/class-twentytwenty-customize.php:250
 msgid "Show author bio"
 msgstr "顯示作者簡歷"
 
@@ -223,35 +221,35 @@ msgstr "瑞典北部現代藝術首選必遊地點。夏季每日開放時間為
 msgid "The New UMoMA Opens its Doors"
 msgstr "UMoMA 全新開幕"
 
-#: classes/class-twentytwenty-customize.php:400
+#: classes/class-twentytwenty-customize.php:399
 msgid "Overlay Opacity"
 msgstr "覆疊不透明度"
 
-#: classes/class-twentytwenty-customize.php:380
+#: classes/class-twentytwenty-customize.php:379
 msgid "The color used for the text in the overlay."
 msgstr "設定用於覆疊的文字色彩。"
 
-#: classes/class-twentytwenty-customize.php:379
+#: classes/class-twentytwenty-customize.php:378
 msgid "Overlay Text Color"
 msgstr "覆疊文字色彩"
 
-#: classes/class-twentytwenty-customize.php:358
+#: classes/class-twentytwenty-customize.php:357
 msgid "The color used for the overlay. Defaults to the accent color."
 msgstr "設定用於覆疊的色彩。預設值為強調色彩。"
 
-#: classes/class-twentytwenty-customize.php:357
+#: classes/class-twentytwenty-customize.php:356
 msgid "Overlay Background Color"
 msgstr "覆疊背景色彩"
 
-#: classes/class-twentytwenty-customize.php:288
+#: classes/class-twentytwenty-customize.php:287
 msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
 msgstr "使用 [封面範本] 的頁面設定。在這個範本中，精選圖片會成為背景圖片。"
 
-#: classes/class-twentytwenty-customize.php:188
+#: classes/class-twentytwenty-customize.php:187
 msgid "Apply a custom color for links, buttons, featured images."
 msgstr "將自訂色彩套用至按鈕、連結及精選圖片。"
 
-#: classes/class-twentytwenty-customize.php:128
+#: classes/class-twentytwenty-customize.php:127
 msgid "Primary Color"
 msgstr "主要色彩"
 
@@ -270,12 +268,12 @@ msgid_plural "We found %s results for your search."
 msgstr[0] "目前找到 %s 項符合條件的搜尋結果。"
 
 #. translators: %s: HTML character for up arrow.
-#: footer.php:55
+#: footer.php:49
 msgid "Up %s"
 msgstr "返回頂端 %s"
 
 #. translators: %s: HTML character for up arrow.
-#: footer.php:49
+#: footer.php:43
 msgid "To the top %s"
 msgstr "返回頂端 %s"
 
@@ -332,6 +330,7 @@ msgstr "社交網路服務連結"
 msgid "Footer"
 msgstr "頁尾"
 
+#. translators: %s: Author name.
 #. translators: %s: Author name.
 #: inc/template-tags.php:375 template-parts/entry-author-bio.php:20
 msgid "By %s"
@@ -404,10 +403,6 @@ msgstr "主要"
 #: header.php:76 header.php:137
 msgid "Menu"
 msgstr "選單"
-
-#: template-parts/modal-search.php:11
-msgid "Search"
-msgstr "搜尋"
 
 #: template-parts/content.php:36
 msgid "Continue reading"
@@ -505,7 +500,7 @@ msgstr "桌面版開闔式選單"
 msgid "Desktop Horizontal Menu"
 msgstr "桌面版水平選單"
 
-#: footer.php:39
+#: footer.php:33
 msgid "Powered by WordPress"
 msgstr "本站採用 WordPress 建置"
 
@@ -542,12 +537,12 @@ msgstr "在〈%s〉中有 1 則留言"
 msgid "Leave a comment"
 msgstr "發佈留言"
 
-#: classes/class-twentytwenty-walker-page.php:115 inc/template-tags.php:580
+#: classes/class-twentytwenty-walker-page.php:110 inc/template-tags.php:580
 msgid "Show sub menu"
 msgstr "顯示子選單"
 
 #. translators: %d: ID of a post.
-#: classes/class-twentytwenty-walker-page.php:78
+#: classes/class-twentytwenty-walker-page.php:73
 msgid "#%d (no title)"
 msgstr "#%d (無標題)"
 
@@ -572,52 +567,52 @@ msgstr "%1$s%2$s"
 msgid "says:"
 msgstr "表示:"
 
-#: classes/class-twentytwenty-customize.php:401
+#: classes/class-twentytwenty-customize.php:400
 msgid "Make sure that the contrast is high enough so that the text is readable."
 msgstr "請確認對比設定值夠高，才能使文字易於閱讀。"
 
-#: classes/class-twentytwenty-customize.php:311
+#: classes/class-twentytwenty-customize.php:310
 msgid "Creates a parallax effect when the visitor scrolls."
 msgstr "使用者捲動網頁時，為背景圖片套用視差滾動效果。"
 
-#: classes/class-twentytwenty-customize.php:310
+#: classes/class-twentytwenty-customize.php:309
 msgid "Fixed Background Image"
 msgstr "固定背景圖片"
 
 #. Template Name of the theme
-#: classes/class-twentytwenty-customize.php:286
+#: classes/class-twentytwenty-customize.php:285
 msgid "Cover Template"
 msgstr "封面範本"
 
-#: classes/class-twentytwenty-customize.php:275
+#: classes/class-twentytwenty-customize.php:274
 msgid "Summary"
 msgstr "內容摘要"
 
-#: classes/class-twentytwenty-customize.php:274
+#: classes/class-twentytwenty-customize.php:273
 msgid "Full text"
 msgstr "完整內容"
 
-#: classes/class-twentytwenty-customize.php:272
+#: classes/class-twentytwenty-customize.php:271
 msgid "On archive pages, posts show:"
 msgstr "彙整頁面的文章顯示方式:"
 
-#: classes/class-twentytwenty-customize.php:230
+#: classes/class-twentytwenty-customize.php:229
 msgid "Show search in header"
 msgstr "在頁首顯示搜尋功能"
 
-#: classes/class-twentytwenty-customize.php:207
+#: classes/class-twentytwenty-customize.php:206
 msgid "Theme Options"
 msgstr "佈景主題選項"
 
-#: classes/class-twentytwenty-customize.php:106
+#: classes/class-twentytwenty-customize.php:105
 msgid "Header &amp; Footer Background Color"
 msgstr "頁首及頁尾背景色彩"
 
-#: classes/class-twentytwenty-customize.php:87
+#: classes/class-twentytwenty-customize.php:86
 msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
 msgstr "將標誌縮放至上傳時的一半尺寸，使其顯示在高解析度螢幕上時更加銳利。"
 
-#: classes/class-twentytwenty-customize.php:86
+#: classes/class-twentytwenty-customize.php:85
 msgid "Retina logo"
 msgstr "Retina 標誌"
 
@@ -630,17 +625,14 @@ msgid "Page Not Found"
 msgstr "找不到符合條件的頁面"
 
 #. Author URI of the theme
-#: footer.php:38
-#, gp-priority: low
+#: footer.php:32
 msgid "https://wordpress.org/"
 msgstr "https://tw.wordpress.org/"
 
 #. Author of the theme
-#, gp-priority: low
 msgid "the WordPress team"
 msgstr "WordPress 團隊"
 
 #. Theme URI of the theme
-#, gp-priority: low
 msgid "https://wordpress.org/themes/twentytwenty/"
 msgstr "https://tw.wordpress.org/themes/twentytwenty/"

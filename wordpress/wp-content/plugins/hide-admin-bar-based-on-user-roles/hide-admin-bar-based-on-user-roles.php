@@ -12,7 +12,7 @@
  * Plugin Name:       Hide Admin Bar From Front End
  * Plugin URI:        https://wordpress.org/plugins/hide-admin-bar-based-on-user-roles/
  * Description:       This plugin is very useful to hide admin bar based on selected user roles and user capabilities.
- * Version:           3.4.0
+ * Version:           3.1.0
  * Author:            Ankit Panchal
  * Author URI:        https://iamankitpanchal.com/
  * License:           GPL-2.0+
@@ -46,7 +46,7 @@ if ( ! defined( 'WPINC' ) ) {
  * Start at version 1.7.0 and use SemVer - https://semver.org
  * Rename this for your plugin and update it as you release new versions.
  */
-define( 'HIDE_ADMIN_BAR_BASED_ON_USER_ROLES', '3.2.0' );
+define( 'HIDE_ADMIN_BAR_BASED_ON_USER_ROLES', '3.1.0' );
 
 /**
  * The code that runs during plugin activation.

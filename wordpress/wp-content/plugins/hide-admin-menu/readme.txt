@@ -3,8 +3,8 @@ Contributors: Bhavin Thummar & Maulik Patel
 Donate link: https://www.paypal.me/BThummar
 Tags: wordpress, admin, menu hide, admin menu, admin menu hide, admin menu show, admin menu plugin, user role
 Requires at least: 4.6
-Tested up to: 5.9.3
-Stable tag: 1.1.1
+Tested up to: 5.6
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: 
  
@@ -45,16 +45,16 @@ Update necessary setting to show any menu again by this URL.
 
  
 == Changelog ==
-1. Solved some warning and notices at time of save process at version WordPress 4.8.  
+1. Solved some warning and notices at time of save process at version wordpress 4.8.  
 2. Solved 2 character error issue at time of activation the plugin and remove deprecate function on version 1.0.4
-3. Tested with WordPress version 5.4.1.
+3. Tested with wordpress 5.4.1
 4. Solved the error which shown in the site health tools.
 5. Solved the issue of the session related in the version of the 1.0.7. So please update the version of 1.0.8 which is the latest one.
 6. Removed the use of the $_SESSION of PHP and used the wp_session in version 1.0.9 to solve the session related warning in the website. 
 7.In version 1.1.0 , solved the issue of not hiding the customize menu. Also removed unnecessary css for one class from the css file which are conflicts with other css.
-8. Tested with WordPress version 5.9.3
+
 == Upgrade Notice ==
 1. This new version where you can also hide the sub menu of the side bar of admin. 
 2. Tested up to WordPress version 5.0.2
 3. We have added parent and child structure for top admin menu to version 1.0.3 according one user request. 
-4. We have added new feature of menu hide according user role   .
+4. We have added new feature of menu hide according user role.

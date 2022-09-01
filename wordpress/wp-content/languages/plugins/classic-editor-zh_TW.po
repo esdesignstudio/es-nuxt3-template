@@ -1,0 +1,128 @@
+# Translation of Plugins - Classic Editor - Stable (latest release) in Chinese (Taiwan)
+# This file is distributed under the same license as the Plugins - Classic Editor - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-07-20 21:40:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: zh_TW\n"
+"Project-Id-Version: Plugins - Classic Editor - Stable (latest release)\n"
+
+#: classic-editor.php:413 classic-editor.php:490 classic-editor.php:888
+msgctxt "Editor Name"
+msgid "Block editor"
+msgstr "區塊編輯器"
+
+#: classic-editor.php:409 classic-editor.php:486 classic-editor.php:888
+msgctxt "Editor Name"
+msgid "Classic editor"
+msgstr "傳統編輯器"
+
+#: classic-editor.php:841
+msgctxt "Editor Name"
+msgid "Edit (classic editor)"
+msgstr "編輯 (傳統編輯器)"
+
+#: classic-editor.php:834
+msgctxt "Editor Name"
+msgid "Edit (block editor)"
+msgstr "編輯 (區塊編輯器)"
+
+#: classic-editor.php:495
+msgid "Change settings"
+msgstr "變更設定"
+
+#: classic-editor.php:482
+msgid "Default editor for all sites"
+msgstr "全部網站的預設編輯器"
+
+#: classic-editor.php:478
+msgid "Editor Settings"
+msgstr "編輯器設定"
+
+#: classic-editor.php:462
+msgid "Default Editor"
+msgstr "預設編輯器"
+
+#: classic-editor.php:875
+msgctxt "Editor Name"
+msgid "block editor"
+msgstr "區塊編輯器"
+
+#: classic-editor.php:872
+msgctxt "Editor Name"
+msgid "classic editor"
+msgstr "傳統編輯器"
+
+#. translators: %s: post title
+#: classic-editor.php:836
+msgid "Edit &#8220;%s&#8221; in the block editor"
+msgstr "使用區塊編輯器編輯〈%s〉"
+
+#: classic-editor.php:671
+msgid "Switch to block editor"
+msgstr "切換至區塊編輯器"
+
+#: classic-editor.php:700
+msgid "Switch to classic editor"
+msgstr "切換至傳統編輯器"
+
+#: classic-editor.php:499
+msgid "By default the block editor is replaced with the classic editor and users cannot switch editors."
+msgstr "依照預設，區塊編輯器會取代傳統編輯器，且使用者無法切換編輯器。"
+
+#: classic-editor.php:498
+msgid "Allow site admins to change settings"
+msgstr "開放網站管理員變更設定"
+
+#: classic-editor.php:652
+msgid "Editor"
+msgstr "編輯器"
+
+#: classic-editor.php:437
+msgid "No"
+msgstr "否"
+
+#: classic-editor.php:433
+msgid "Yes"
+msgstr "是"
+
+#: classic-editor.php:360
+msgid "Allow users to switch editors"
+msgstr "開放使用者自行切換編輯器"
+
+#: classic-editor.php:359
+msgid "Default editor for all users"
+msgstr "全站預設編輯器"
+
+#. Author URI of the plugin
+msgid "https://github.com/WordPress/classic-editor/"
+msgstr "https://github.com/WordPress/classic-editor/"
+
+#. Plugin URI of the plugin
+msgid "https://wordpress.org/plugins/classic-editor/"
+msgstr "https://tw.wordpress.org/plugins/classic-editor/"
+
+#. Author of the plugin
+msgid "WordPress Contributors"
+msgstr "WordPress Contributors"
+
+#. Description of the plugin
+msgid "Enables the WordPress classic editor and the old-style Edit Post screen with TinyMCE, Meta Boxes, etc. Supports the older plugins that extend this screen."
+msgstr "將 WordPress 網站的編輯器還原為傳統編輯器及舊式 [編輯文章] 畫面 (例如 TinyMCE、中繼資料區塊等等)，同時也支援其他能擴充這個畫面的外掛。"
+
+#. Plugin Name of the plugin
+msgid "Classic Editor"
+msgstr "Classic Editor (傳統編輯器)"
+
+#. translators: %s: post title
+#: classic-editor.php:843
+msgid "Edit &#8220;%s&#8221; in the classic editor"
+msgstr "使用傳統編輯器編輯〈%s〉"
+
+#: classic-editor.php:719
+msgid "Settings"
+msgstr "設定"

@@ -25,8 +25,8 @@ services:
             WORDPRESS_DB_NAME: $WP_MYSQL_DATABASE
             WORDPRESS_DEBUG: $WP_DEBUG
             WORDPRESS_CONFIG_EXTRA: |
-                define('WP_SITEURL', 'http://192.168.50.5:$WP_PORT');
-                define('WP_HOME', 'http://192.168.50.5:$WP_PORT');
+                define('WP_SITEURL', 'http://localhost:$WP_PORT');
+                define('WP_HOME', 'http://localhost:$WP_PORT');
 
     phpmyadmin:
         container_name: ${COMPOSE_PROJECT_NAME}_phpmyadmin

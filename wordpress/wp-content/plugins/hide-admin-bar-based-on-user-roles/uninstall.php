@@ -19,7 +19,7 @@
  * For more information, see the following discussion:
  * https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate/pull/123#issuecomment-28541913
  *
- * @link       https://iamankitpanchal.com/
+ * @link       https://iamankitp.com/
  * @since      1.5.0
  *
  * @package    Hide_Admin_Bar_Based_On_User_Roles

@@ -1,0 +1,160 @@
+$font-weight: (
+    light: 300,
+    normal: 400,
+    medium: 500,
+    bold: 700
+);
+$font-family: (
+    default: #{
+        'Noto Sans TC',
+        'Microsoft YaHei UI',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        'Helvetica Neue',
+        sans-serif
+    },
+    en: #{
+        'Helvetica',
+        'Noto Sans TC',
+        'Microsoft YaHei UI',
+        -apple-system,
+        BlinkMacSystemFont,
+        'Segoe UI',
+        Roboto,
+        'Helvetica Neue',
+        sans-serif
+    },
+);
+
+@mixin typo($lv, $type) {
+    @if $lv == 'display' {
+        @if $type == 1 {
+            font-size: 64px;
+            font-family: map-get($font-family, en);
+            font-weight: map-get($font-weight, normal);
+            line-height: normal;
+            letter-spacing: 0;
+
+            @include media-breakpoint-down(tablet) {
+                font-size: 48px;
+            }
+        } @else if $type == 2 {
+            font-size: 48px;
+            font-family: map-get($font-family, en);
+            font-weight: map-get($font-weight, normal);
+            line-height: normal;
+            letter-spacing: 2px;
+
+            @include media-breakpoint-down(tablet) {
+                font-size: 36px;
+            }
+        } @else if $type == 3 {
+            font-size: 14px;
+            font-family: map-get($font-family, default);
+            font-weight: map-get($font-weight, normal);
+            line-height: normal;
+            letter-spacing: 2px;
+
+            body.language-en &, &.-en {
+                font-family: map-get($font-family, en);
+            }
+        } @else {
+            @error '#{$type}:沒有這個type';
+        }
+    } @else if $lv == 'heading' {
+        @if $type == 1 {
+            font-size: 36px;
+            font-family: map-get($font-family, default);
+            font-weight: map-get($font-weight, medium);
+            line-height: 56px;
+            letter-spacing: 6px;
+
+            body.language-en &, &.-en {
+                font-family: map-get($font-family, en);
+                line-height: normal;
+            }
+
+            @include media-breakpoint-down(tablet) {
+                font-size: 28px;
+                letter-spacing: 2px;
+            }
+        } @else if $type == 2 {
+            font-size: 28px;
+            font-family: map-get($font-family, default);
+            font-weight: map-get($font-weight, medium);
+            line-height: normal;
+            letter-spacing: 4px;
+
+            body.language-en &, &.-en {
+                font-size: 24px;
+                font-family: map-get($font-family, en);
+                line-height: normal;
+            }
+
+            @include media-breakpoint-down(tablet) {
+                font-size: 20px;
+            }
+        } @else if $type == 3 {
+            font-size: 22px;
+            font-family: map-get($font-family, default);
+            font-weight: map-get($font-weight, medium);
+            line-height: normal;
+            letter-spacing: 1px;
+
+            body.language-en &, &.-en {
+                font-size: 16px;
+                font-family: map-get($font-family, en);
+                letter-spacing: 0;
+            }
+        } @else if $type == 4 {
+            font-size: 18px;
+            font-family: map-get($font-family, default);
+            font-weight: map-get($font-weight, medium);
+            line-height: normal;
+            letter-spacing: 1px;
+        } @else if $type == 5 {
+            font-size: 16px;
+            font-family: map-get($font-family, default);
+            font-weight: map-get($font-weight, medium);
+            line-height: 24px;
+            letter-spacing: 0;
+        } @else {
+            @error '#{$type}:沒有這個type';
+        }
+    } @else if $lv == 'body' {
+        @if $type == 1 {
+            font-size: 14px;
+            font-family: map-get($font-family, default);
+            font-weight: map-get($font-weight, medium);
+            line-height: 24px;
+            letter-spacing: 0;
+
+            body.language-en &, &.-en {
+                font-family: map-get($font-family, en);
+                line-height: normal;
+            }
+        } @else {
+            @error '#{$type}:沒有這個type';
+        }
+    } @else if $lv == 'button' {
+        @if $type == 1 {
+            font-size: 24px;
+            font-family: map-get($font-family, en);
+            font-weight: map-get($font-weight, normal);
+            line-height: normal;
+            letter-spacing: 2px;
+        } @else if $type == 2 {
+            font-size: 16px;
+            font-family: map-get($font-family, en);
+            font-weight: map-get($font-weight, medium);
+            line-height: normal;
+            letter-spacing: 2px;
+        } @else {
+            @error '#{$type}:沒有這個type';
+        }
+    } @else {
+        @error '#{$lv}:沒有這個level';
+    }
+}
