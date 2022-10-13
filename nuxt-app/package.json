@@ -8,7 +8,7 @@
   },
   "devDependencies": {
     "@nuxtjs/style-resources": "^1.2.1",
-    "nuxt": "3.0.0-rc.3",
+    "nuxt": "3.0.0-rc.11",
     "sass": "^1.52.1",
     "sass-loader": "^13.0.0",
     "stylelint": "^14.8.3",

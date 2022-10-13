@@ -1,25 +1,9 @@
 <?php
-require_once 'router/mail.php';
-require_once 'router/get_global_options.php';
-require_once 'router/get_language.php';
-require_once 'router/get_page_index.php';
-require_once 'router/get_page_about_bolon.php';
-require_once 'router/get_page_about_banlon.php';
-require_once 'router/get_page_sustainability.php';
-require_once 'router/get_page_support.php';
-require_once 'router/get_page_design.php';
-require_once 'router/get_archive_products.php';
-require_once 'router/get_archive_projects.php';
-require_once 'router/get_archive_news.php';
-require_once 'router/get_single_products.php';
-require_once 'router/get_single_projects.php';
-require_once 'router/get_single_news.php';
-require_once 'router/get_search.php';
-require_once 'router/get_filter_products.php';
-require_once 'router/get_filter_projects.php';
-require_once 'router/get_cookie.php';
-require_once 'router/get_custom_page.php';
-require_once 'router/send_mail.php';
+require_once 'router/get_single_work.php';
+require_once 'router/get_page_custom.php';
+require_once 'router/get_archive_works.php';
+require_once 'router/get_page_home.php';
+require_once 'router/get_global.php';
 
 
 /**
@@ -29,98 +13,29 @@ require_once 'router/send_mail.php';
 
 add_action('rest_api_init', function () {
 
-    register_rest_route('api', '/custom_page/(?P<id>\d+)', array(
+    register_rest_route('api', '/get_global', array(
         'methods' => 'GET',
-        'callback' => 'get_custom_page'
+        'callback' => 'get_global'
     ));
-
-    register_rest_route('api', '/global_options', array(
-        'methods' => 'GET',
-        'callback' => 'get_global_options'
-    ));
-
-    register_rest_route('api', '/index', [
-        'methods' => 'GET',
-        'callback' => 'get_page_index'
-    ]);
-
-    register_rest_route('api', '/sustainability', [
-        'methods' => 'GET',
-        'callback' => 'get_page_sustainability'
-    ]);
-
-    register_rest_route('api', '/support', [
-        'methods' => 'GET',
-        'callback' => 'get_page_support'
-    ]);
-
-    register_rest_route('api', '/design', [
-        'methods' => 'GET',
-        'callback' => 'get_page_design'
-    ]);
     
-    register_rest_route('api', '/page_about_banlon', array(
-        'methods' => 'GET',
-        'callback' => 'get_page_about_banlon'
-    ));
-
-    register_rest_route('api', '/page_about_bolon', array(
-        'methods' => 'GET',
-        'callback' => 'get_page_about_bolon'
-    ));
-
-    register_rest_route('api', '/products', [
-        'methods' => 'GET',
-        'callback' => 'get_archive_products'
-    ]);
-
-    register_rest_route('api', '/projects', [
-        'methods' => 'GET',
-        'callback' => 'get_archive_projects'
-    ]);
-
-    register_rest_route('api', '/getnews', [
+    register_rest_route('api', '/get_page_custom', array(
         'methods' => 'POST',
-        'callback' => 'get_archive_news'
-    ]);
-
-    register_rest_route('api', '/search', [
-        'methods' => 'POST',
-        'callback' => 'get_search'
-    ]);
-
-    register_rest_route('api', '/products-post/(?P<post>(%[0-9A-F]{2}|[^<>\'" %])+)', [
-        'methods' => 'GET',
-        'callback' => 'get_single_products'
-    ]);
-
-    register_rest_route('api', '/projects-post/(?P<post>(%[0-9A-F]{2}|[^<>\'" %])+)', [
-        'methods' => 'GET',
-        'callback' => 'get_single_projects'
-    ]);
-
-    register_rest_route('api', '/news-post/(?P<post>(%[0-9A-F]{2}|[^<>\'" %])+)', [
-        'methods' => 'GET',
-        'callback' => 'get_single_news'
-    ]);
+        'callback' => 'get_page_custom'
+    ));
     
-    register_rest_route('api', '/filter-products', [
+    register_rest_route('api', '/get_page_home', array(
         'methods' => 'POST',
-        'callback' => 'get_filter_products'
-    ]);
+        'callback' => 'get_page_home'
+    ));
 
-    register_rest_route('api', '/filter-projects', [
+    register_rest_route('api', '/get_archive_works', array(
         'methods' => 'POST',
-        'callback' => 'get_filter_projects'
-    ]);
+        'callback' => 'get_archive_works'
+    ));
 
-    register_rest_route('api', '/cookie', [
+    register_rest_route('api', '/get_single_work', array(
         'methods' => 'POST',
-        'callback' => 'get_cookie'
-    ]);
+        'callback' => 'get_single_work'
+    ));
 
-    register_rest_route('api', '/mail', [
-        'methods' => 'POST',
-        'callback' => 'send_mail'
-    ]);
 });

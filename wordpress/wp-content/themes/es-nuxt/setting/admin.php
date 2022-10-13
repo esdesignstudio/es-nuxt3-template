@@ -73,6 +73,9 @@ add_action('admin_init', function () {
     }
 });
 
+// 取消最大圖片寬高限制 2560px
+add_filter( 'big_image_size_threshold', '__return_false' );
+
 // Close comments on the front-end
 add_filter('comments_open', '__return_false', 20, 2);
 add_filter('pings_open', '__return_false', 20, 2);
@@ -91,4 +94,3 @@ add_action('init', function () {
         remove_action('admin_bar_menu', 'wp_admin_bar_comments_menu', 60);
     }
 });
-?>

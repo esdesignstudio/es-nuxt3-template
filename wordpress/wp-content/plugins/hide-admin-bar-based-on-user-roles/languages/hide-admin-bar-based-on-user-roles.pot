@@ -1,3 +1,0 @@
-#: hide-admin-bar-based-on-user-roles:123
-msgid "Hide Admin Bar From Front End"
-msgstr ""
