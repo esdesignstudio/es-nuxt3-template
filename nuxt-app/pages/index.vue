@@ -5,6 +5,7 @@
                 <h1>細節不單只是細節，它們成就了設計<br>我們追求那小小會心一驚的設計<br>The details are not the details. They make the design.</h1>
             </div>
         </div>
+        <Footer />
     </div>
 </template>
 <script setup>

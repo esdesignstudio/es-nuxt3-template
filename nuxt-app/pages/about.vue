@@ -2,9 +2,10 @@
     <div class="page-about">
         <div class="container">
             <div class="page-about__content">
-                <h1>唯有深入思考各個角度，才能真正創造出帥氣的作品</h1>
+                <h1>唯有深入思考各個角度，才能真正創造出帥氣的作品<br>- <br>佐藤可士</h1>
             </div>
         </div>
+        <Footer />
     </div>
 </template>
 <script setup>

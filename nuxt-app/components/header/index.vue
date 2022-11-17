@@ -27,10 +27,11 @@
 $class-name: header-index;
 .#{$class-name} {
     &__wrap {
-        padding: 2rem 0;
         display: flex;
+        padding: 2rem 0;
         align-items: center;
         justify-content: space-between;
+        border-bottom: 1px solid rgba(0,0,0,.2);
     }
     &__logo {
         @include typo('display', 1);
