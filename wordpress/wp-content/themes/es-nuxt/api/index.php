@@ -1,7 +1,5 @@
 <?php
-require_once 'router/get_single_work.php';
 require_once 'router/get_page_custom.php';
-require_once 'router/get_archive_works.php';
 require_once 'router/get_page_home.php';
 require_once 'router/get_global.php';
 
@@ -28,14 +26,5 @@ add_action('rest_api_init', function () {
         'callback' => 'get_page_home'
     ));
 
-    register_rest_route('api', '/get_archive_works', array(
-        'methods' => 'POST',
-        'callback' => 'get_archive_works'
-    ));
-
-    register_rest_route('api', '/get_single_work', array(
-        'methods' => 'POST',
-        'callback' => 'get_single_work'
-    ));
-
+    
 });

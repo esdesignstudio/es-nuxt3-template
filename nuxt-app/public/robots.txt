@@ -1,0 +1,43 @@
+#  
+#  /////////////       /////////
+#  //////////       //////////////
+#  ////            /////
+#  //////////       ////////////
+#  ////              /////////////
+#  ///////////    ///      ////////
+#  /////////////    ////////////
+#  
+#  ES design studio, and we have a dachshund
+#  
+#                           .-.
+#  (_______________________()6 `--,
+#  (   __________________   /'''"`
+#  //\\                  //\\
+#  "" ""                 "" ""
+#  
+#  Hi Welcome to ES rotobs, 
+#  We are looking for awsome Front-End developer ↓
+#  https://www.cakeresume.com/companies/es-design/jobs !! JOIN US !!! 
+#  
+
+User-Agent: *
+Allow: /wp-content
+Disallow: /wp-admin
+
+User-agent: Googlebot
+Allow: /wp-content
+Disallow: /wp-admin
+
+User-agent: Bingbot
+Allow: /wp-content
+Disallow: /wp-admin
+
+User-agent: YandexBot
+Allow: /wp-content
+Disallow: /wp-admin
+
+User-agent: Baiduspider
+Allow: /wp-content/
+Disallow: /wp-admin
+
+Sitemap: 這裡要換上客戶網址

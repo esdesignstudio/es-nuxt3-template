@@ -47,7 +47,7 @@
             pointer-events: none;
 
             &-col {
-                background-color: #555555;
+                background-color: rgba(255,255,255,.8);
                 opacity: 0.1;
 
                 &.-desktop {

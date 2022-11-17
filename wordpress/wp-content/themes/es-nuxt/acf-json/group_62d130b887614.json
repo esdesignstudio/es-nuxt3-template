@@ -3,23 +3,6 @@
     "title": "SEO設定",
     "fields": [
         {
-            "key": "field_62d13294cba97",
-            "label": "",
-            "name": "",
-            "type": "message",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "message": "優先抓取頁面、文章欄位，預設則使用網站設定欄位。",
-            "new_lines": "wpautop",
-            "esc_html": 0
-        },
-        {
             "key": "field_62d130bdcba92",
             "label": "Meta 描述",
             "name": "meta_description",
@@ -38,25 +21,6 @@
             "rows": "",
             "new_lines": "",
             "acfe_textarea_code": 0
-        },
-        {
-            "key": "field_62d130d0cba93",
-            "label": "Keyword 關鍵字",
-            "name": "keywords",
-            "type": "text",
-            "instructions": "使用逗號區分關鍵字，範例: 品牌,設計",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            },
-            "default_value": "",
-            "placeholder": "",
-            "prepend": "",
-            "append": "",
-            "maxlength": ""
         },
         {
             "key": "field_62d13167cba94",
@@ -130,6 +94,11 @@
                 "param": "post_type",
                 "operator": "==",
                 "value": "all"
+            },
+            {
+                "param": "post_type",
+                "operator": "!=",
+                "value": "post"
             }
         ],
         [
@@ -156,5 +125,5 @@
     "acfe_form": 0,
     "acfe_meta": "",
     "acfe_note": "",
-    "modified": 1660578733
+    "modified": 1668232203
 }

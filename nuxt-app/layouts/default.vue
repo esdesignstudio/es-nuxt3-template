@@ -1,32 +1,28 @@
 <template>
     <div id="wrapper" class="wrapper">
+        <Header />
         <main data-scroll-container>
-            <slot></slot>   
+            <NuxtPage />
         </main>
         <PageDev/>
     </div>
 </template>
 
 <script setup>
-    import useStore from "~~/store"
-    import { storeToRefs } from 'pinia'
 
-    const store = useStore()
-    const { isLoading } = storeToRefs(store)
+    // watch(() => isLoading.value, (val) => {
+    //     if (!val) {
+    //         setTimeout(() => {
+    //             document.body.classList.add('landed')
+    //         }, 1200)
+    //     }
+    // })
 
-    watch(() => isLoading.value, (val) => {
-        if (!val) {
-            setTimeout(() => {
-                document.body.classList.add('landed')
-            }, 1200)
-        }
-    })
+    // onMounted(() => {
+    //     let vh = window.innerHeight * 0.01
+    //     document.documentElement.style.setProperty('--vh', `${vh}px`)
 
-    onMounted(() => {
-        let vh = window.innerHeight * 0.01
-        document.documentElement.style.setProperty('--vh', `${vh}px`)
-
-        store.addLoadingStack(store.loadImage())
-        store.waitLoading()
-    })
+    //     store.addLoadingStack(store.loadImage())
+    //     store.waitLoading()
+    // })
 </script>

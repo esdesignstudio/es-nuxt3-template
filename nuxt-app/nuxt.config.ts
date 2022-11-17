@@ -1,8 +1,12 @@
 import { resolve, dirname } from 'node:path'
-import { fileURLToPath } from 'url'
-import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite'
-// https://v3.nuxtjs.org/api/configuration/nuxt.config
-export default defineNuxtConfig({
+
+export default ({
+    // experimental: {
+    //     writeEarlyHints: false,
+    // },
+    app: {
+        pageTransition: { name: 'page', mode: 'out-in' }
+    },
     css: [
         '@/style/_main.scss', // global css
     ],
@@ -18,40 +22,57 @@ export default defineNuxtConfig({
             alias: {
                 '~': resolve(__dirname, './assets/')
             }
-        },
-        plugins: [
-            VueI18nVitePlugin({
-            include: [
-                    resolve(dirname(fileURLToPath(import.meta.url)), './locales/*.json')
-                ]
+        }
+    },
+    modules: [
+        // 'nuxt-jsonld',
+        '@intlify/nuxt3'
+    ],
+    intlify: {
+        vueI18n: {
+            locale: 'zh',
+            fallbackLocale: 'zh'
+        }
+    },
+    // i18n 目前不支援 nuxt3 routing，要自行創建 en 連結
+    // https://github.com/nuxt/framework/discussions/5901
+    hooks: { 
+        'pages:extend': (pages) => {
+            // pages.push({
+            //     name: 'works-slug',
+            //     path: '/works/:slug',
+            //     file: resolve(__dirname, './pages/works/_slug.vue')
+            // })
+            pages.push({
+                name: 'en-index',
+                path: '/en',
+                file: resolve(__dirname, './pages/index.vue')
             })
-        ]
+        }
     },
     meta: {
         title: process.env.APP_NAME,
-        titleTemplate: '%s ♠︎ ' + process.env.APP_NAME,
+        titleTemplate: '%s ✷ ' + process.env.APP_NAME,
         charset: 'utf-8',
+        htmlAttrs: {
+            lang: 'zh-TW',
+        },
         meta: [
             { name: 'theme-color', content: '#000000' },
+            { name: 'distribution', content: 'Taiwan Taipei' },
+            { name: 'copyright', content: 'ES Design 壹慎設計有限公司' },
             { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            { name: 'description', content: '我們專注在【視覺設計、品牌識別、網頁設計、特效開發】全方位客製化設計解決方案，強調視覺與互動的細節體驗，讓內容可以超越形式的存在，嘗試打造突能破框架的品牌價值' },
             { property: 'og:type', content: 'website' },
-            { hid: 'og:title', property: 'og:title', content: '' },
-            { hid: 'og:description', property: 'og:description', content: '' },
+            { hid: 'og:image', property: 'og:image', content: 'https://e-s.tw/wp-content/uploads/2022/10/socialshare.jpg' },
             { hid: 'og:url', property: 'og:url', content: '' },
-            { hid: 'og:site_name', property: 'og:site_name', content: '' },
+            { hid: 'og:site_name', property: 'og:site_name', content: process.env.APP_NAME },
             { property: 'og:image:width', content: '1200' },
             { property: 'og:image:height', content: '630' },
             { name: 'twitter:card', content: 'summary_large_image' },
-            { hid: 'twitter:description', name: 'twitter:description', content: '' },
-            { hid: 'twitter:title', name: 'twitter:title', content: '' },
-            { hid: 'twitter:image', name: 'twitter:image', content: '' },
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v1' },
-            {
-                href: 'https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Poppins:wght@400;600&display=swap',
-                rel: 'stylesheet',
-            },
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v1' }
         ],
         noscript: [
           { children: '😚 ES Design：此網站必須啟用 ✪ Javascript ✪' }
@@ -59,10 +80,11 @@ export default defineNuxtConfig({
     },
     runtimeConfig: {
         public: {
-            apiBase: process.env.API_DEV_URL + '/wp-json/api',
-            apiWp: process.env.API_DEV_URL + '/wp-json/wp/v2',
-            siteUrl: process.env.API_DEV_URL,
+            apiBase: process.env.API_DEPLOY_URL + '/wp-json/api',
+            apiWp: process.env.API_DEPLOY_URL + '/wp-json/wp/v2',
             siteName: process.env.APP_NAME
         },
     },
+    quiet: true,
+    debug: false
 })

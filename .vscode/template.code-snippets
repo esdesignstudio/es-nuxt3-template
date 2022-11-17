@@ -21,9 +21,19 @@
         ],
         "description": "rwd desktop"
     },
-    "SCSS RWD mixin tablet": {
+    "SCSS RWD mixin medium": {
         "scope": "scss, vue",
         "prefix": "md",
+        "body": [
+            "@include media-breakpoint-down(medium) {",
+            "$1",
+            "}"
+        ],
+        "description": "rwd medium"
+    },
+    "SCSS RWD mixin tablet": {
+        "scope": "scss, vue",
+        "prefix": "mds",
         "body": [
             "@include media-breakpoint-down(tablet) {",
             "$1",
@@ -35,7 +45,7 @@
         "scope": "scss, vue",
         "prefix": "xs",
         "body": [
-            "@include media-breakpoint-down(mobile) {",
+            "@include media-breakpoint-down(mob) {",
             "$1",
             "}",
         ],

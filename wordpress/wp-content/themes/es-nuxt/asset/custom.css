@@ -2,8 +2,10 @@
 /* 留言 */
  #menu-dashboard > ul, #wp-admin-bar-updates,
 /* 更新 */
- .user-admin-color-wrap, .user-syntax-highlighting-wrap, .user-rich-editing-wrap, .user-comment-shortcuts-wrap, .user-admin-bar-front-wrap, .user-last-name-wrap, .user-url-wrap,
+.update-nag, .user-admin-color-wrap, .user-syntax-highlighting-wrap, .user-rich-editing-wrap, .user-comment-shortcuts-wrap, .user-admin-bar-front-wrap, .user-last-name-wrap, .user-url-wrap,
 /* 使用者相關 */
+#wp-admin-bar-new-content,
+#contextual-help-link-wrap,
  #wp-admin-bar-wpseo-menu, .welcome-panel-content{
      display: none !important;
 }
@@ -35,11 +37,20 @@
 .acf-repeater .acf-field-true-false .acf-label label {
     margin-bottom: 0 !important;
 }
-
 /* Dashboard */
- #welcome-panel {
-     background: none;
+.welcome-panel-close,
+#dashboard-widgets-wrap {
+    display: none !important;
 }
+#welcome-panel {
+    background: none;
+    padding: 5rem;
+}
+#wpcontent #wpfooter {
+    display: none;
+}
+
+/* 主題樣式 */
  .custom_welcome__title {
      text-align: center;
      min-height: 50vh;
