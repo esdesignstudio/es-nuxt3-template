@@ -19,7 +19,7 @@
   "dependencies": {
     "dayjs": "^1.11.5",
     "imagesloaded": "^5.0.0",
-    "nuxt-jsonld": "^2.0.6",
+    "nuxt-jsonld": "^2.0.7",
     "swiper": "^8.1.5",
     "vee-validate": "^4.6.9",
     "vue-gtag-next": "^1.14.0"

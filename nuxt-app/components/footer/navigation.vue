@@ -6,7 +6,7 @@
                 :key="index"
             >
                 <NuxtLink
-                    to="/"
+                    :to="item.link"
                 >
                     {{ item.name }}
                 </NuxtLink>
@@ -23,8 +23,8 @@
             name: 'About',
             link: '/about',
         }, {
-            name: 'blog',
-            link: '/',
+            name: 'Blog',
+            link: '/blog',
         },
     ])
 </script>

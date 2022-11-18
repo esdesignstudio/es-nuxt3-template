@@ -21,25 +21,28 @@
     }
 }
 
-.layout {
+.list {
     &-enter {
-        opacity: 0;
-
-        &-active {
-            transition: opacity 0.5s;
-        }
-    }
-
-    &-leave {
-        &-to {
+        &-from {
             opacity: 0;
+            transform: translateY(2rem);
         }
 
         &-active {
-            transition: opacity 0.5s;
+            transition: opacity 0.5s, transform .5s;
         }
     }
+
+    // &-leave {
+    //     &-to {
+    //         opacity: 0;
+    //     }
+    //     &-active {
+    //         transition: opacity 0.5s;
+    //     }
+    // }
 }
+
 
 
 @keyframes scrollLine {

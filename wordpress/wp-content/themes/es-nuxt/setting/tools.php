@@ -30,14 +30,14 @@ function es_get_posts_pagination($args, $paged)
 
         // 下一頁
         $pagi_links[] = array(
-            'slug'  => $paged >= $query -> max_num_pages -1 ? false :  '?page=' . strval($paged + 1),
+            'slug'  => $paged > $query -> max_num_pages -1 ? false : '?page=' . strval($paged + 1),
             'label' => 'next',
         );
 
         $pagi_data = array(
             'current_page' => $paged,
             'last_page' => $query -> max_num_pages,
-            'links' => $pagi_links
+            'links' => $pagi_links,
         );
         
         return $pagi_data;

@@ -3960,10 +3960,10 @@ nuxi@3.0.0:
   optionalDependencies:
     fsevents "~2.3.2"
 
-nuxt-jsonld@^2.0.6:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/nuxt-jsonld/-/nuxt-jsonld-2.0.6.tgz#599966cf01b69626b83b742befa4e40c2a2c1430"
-  integrity sha512-Y8dG1m5yk93k+w2c0uHvllWI7SsuABWBlHX/xZFmwNYcnzt7kaA/y5JZThCJtcngCXg1EgqIkLoUKOXLj84ZFA==
+nuxt-jsonld@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/nuxt-jsonld/-/nuxt-jsonld-2.0.7.tgz#05002be21ef6557a518a89dd7b8653add0712e13"
+  integrity sha512-BCjGSkfrXHtH2Z5IQPG3qnNlnvLP0pQqo9ezc41CZWd91Ax1FKobdWUX3ue1SYHgPfX9vGURj02BwWmKEbnRxQ==
   dependencies:
     pathe "^0.3.0"
     schema-dts "^1.0.0"

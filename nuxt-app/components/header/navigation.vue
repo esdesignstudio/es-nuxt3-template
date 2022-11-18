@@ -30,8 +30,8 @@
             name: 'About',
             link: '/about',
         }, {
-            name: 'blog',
-            link: '/',
+            name: 'Blog',
+            link: '/blog',
         },
     ])
 </script>

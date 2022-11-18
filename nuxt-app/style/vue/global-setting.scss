@@ -58,7 +58,10 @@ textarea {
 }
 
 pre {
-    white-space: pre-line;
+    font-size: 12px;
+    line-height: 1.2;
+    color: rgb(0, 121, 84);
+    white-space: pre-wrap;
 }
 
 a {

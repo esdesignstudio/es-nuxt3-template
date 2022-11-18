@@ -3,6 +3,8 @@ require_once 'router/get_page_custom.php';
 require_once 'router/get_page_home.php';
 require_once 'router/get_global.php';
 
+require_once 'router/get_archive_blog.php';
+require_once 'router/get_single_blog.php';
 
 /**
  * origin api
@@ -25,6 +27,15 @@ add_action('rest_api_init', function () {
         'methods' => 'POST',
         'callback' => 'get_page_home'
     ));
-
+    
+    register_rest_route('api', '/get_archive_blog', array(
+        'methods' => 'POST',
+        'callback' => 'get_archive_blog'
+    ));
+    
+    register_rest_route('api', '/get_single_blog', array(
+        'methods' => 'POST',
+        'callback' => 'get_single_blog'
+    ));
     
 });

@@ -1,8 +1,7 @@
 <template>
-    <div class="blog-archive">
+    <div class="blog-archive category">
         <div class="container">
-            <h1>全部</h1>
-            <ElementsBlogCategory :data="pageData?.categories" />
+            <h1>{{ pageData?.cate_title }}</h1>
             <ul class="blog-archive__wrap">
                 <transition-group name="list">
                 <li
@@ -31,24 +30,24 @@
     const router = useRouter()
 
     const { data: pageData } = await useAsyncData(
-        'get_archive_blog-all',
+        'get_archive_blog' + route.params.slug,
         () => $fetch( useRuntimeConfig().apiBase + '/get_archive_blog', {
             method: 'POST',
             body: {
-                cat_slug: 'all',
-                page: route.query.page || 1,
+                cat_slug: route.params.slug,
+                page: 1,
                 posts_per_page: 4
                 // locale: locale.value 多國語言要自帶
             }
         })
     )
-
+    console.log('pageData', pageData.value)
     // 換頁
     router.beforeEach((to, from) => {
         $fetch(useRuntimeConfig().apiBase + '/get_archive_blog', {
             method: 'POST',
             body: {
-                cat_slug: 'all',
+                cat_slug: route.params.slug,
                 page: to.query.page || 1,
                 posts_per_page: 4
             }
@@ -68,23 +67,14 @@
 <style lang="scss">
 $class-name: blog-archive;
 .#{$class-name} {
-    padding-top: 5rem;
-    
-    &__wrap {
-        li {
-            a {
-                @include size(100%, auto);
-                @include typo('heading', 2);
+    h1 {
+        @include typo('heading', 2);
 
-                padding: 2rem;
-                margin-bottom: 2rem;
-                border: 1px solid rgba(0,0,0,.2);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    &.category {
 
-                &:hover {
-                    opacity: 0.5;
-                }
-            }
-        }
     }
 }
 </style>

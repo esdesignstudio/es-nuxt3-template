@@ -25,7 +25,7 @@ export default ({
         }
     },
     modules: [
-        // 'nuxt-jsonld',
+        'nuxt-jsonld',
         '@intlify/nuxt3'
     ],
     intlify: {
@@ -36,20 +36,20 @@ export default ({
     },
     // i18n 目前不支援 nuxt3 routing，要自行創建 en 連結
     // https://github.com/nuxt/framework/discussions/5901
-    hooks: { 
-        'pages:extend': (pages) => {
-            // pages.push({
-            //     name: 'works-slug',
-            //     path: '/works/:slug',
-            //     file: resolve(__dirname, './pages/works/_slug.vue')
-            // })
-            pages.push({
-                name: 'en-index',
-                path: '/en',
-                file: resolve(__dirname, './pages/index.vue')
-            })
-        }
-    },
+    // hooks: { 
+    //     'pages:extend': (pages) => {
+    //         // pages.push({
+    //         //     name: 'works-slug',
+    //         //     path: '/works/:slug',
+    //         //     file: resolve(__dirname, './pages/works/_slug.vue')
+    //         // })
+    //         pages.push({
+    //             name: 'en-index',
+    //             path: '/en',
+    //             file: resolve(__dirname, './pages/index.vue')
+    //         })
+    //     }
+    // },
     meta: {
         title: process.env.APP_NAME,
         titleTemplate: '%s ✷ ' + process.env.APP_NAME,
@@ -81,7 +81,6 @@ export default ({
     runtimeConfig: {
         public: {
             apiBase: process.env.API_DEPLOY_URL + '/wp-json/api',
-            apiWp: process.env.API_DEPLOY_URL + '/wp-json/wp/v2',
             siteName: process.env.APP_NAME
         },
     },

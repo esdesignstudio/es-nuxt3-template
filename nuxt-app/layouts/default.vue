@@ -1,5 +1,6 @@
 <template>
     <div id="wrapper" class="wrapper">
+        <NuxtLoadingIndicator height="5" />
         <Header />
         <main data-scroll-container>
             <NuxtPage />
@@ -9,7 +10,6 @@
 </template>
 
 <script setup>
-
     // watch(() => isLoading.value, (val) => {
     //     if (!val) {
     //         setTimeout(() => {

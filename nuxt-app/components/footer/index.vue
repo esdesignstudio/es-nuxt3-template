@@ -20,7 +20,7 @@
 <style lang="scss">
 $class-name: footer;
 .#{$class-name} {
-
+    padding: 3rem 0;
     &__wrap {
         display: flex;
         justify-content: space-between;
