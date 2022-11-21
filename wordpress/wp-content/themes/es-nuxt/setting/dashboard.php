@@ -35,9 +35,12 @@ function wpex_wp_welcome_panel() { ?>
         #wpwrap {
             position: relative;
             background-color: #cec8c2;
+            background-image: url(<?php echo get_template_directory_uri().'/asset/imgs/dash_bg.jpg'; ?>);
+            background-size: 2500px 1471px;
+            background-position: center;
         }
         #wpwrap:before {
-            content: '';
+            /* content: '';
             left: calc(50% + 100px);
             top: 50%;
             transform: translate(-50%, -50%);
@@ -46,9 +49,8 @@ function wpex_wp_welcome_panel() { ?>
             border-radius: 50vw;
             position: absolute;
             background-color: #fff;
-            filter: blur(20px);
+            filter: blur(20px); */
         }
     </style>
-
 <?php }
 add_action( 'welcome_panel', 'wpex_wp_welcome_panel' );
