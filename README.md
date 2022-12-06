@@ -1,6 +1,6 @@
-# ES Nuxt3 WordPress
+<h1 align="center">ES Nuxt3 🍳 WordPress</h1>
 
-## 安裝步驟
+## 📕 安裝步驟
 1. 到 .env 檔設定基本環境
 2. docker-compose up -d
 3. cd nuxt-app
@@ -9,7 +9,7 @@
     nuxt localhost:3000,
     wordpress localhost:9000/wp-admin
 
-## 資料庫輸出
+## 📗 資料庫輸出
 1. `sh dump.sh` 將 docker VM 的 DB 資料匯出至 `/db/default/wp.sql`
 
 ## 前端上傳步驟
@@ -22,7 +22,7 @@
 7. 開啟 `pm2` 可以先 `pm2 delete project-name`，或者直接 `pm2 restart project-name`
 8. 沒有開過 `pm2` 則 `cd /project-name/nuxt-app` 輸入 `pm2 start --env prod`
 
-## Git Commit Type 規範
+## 📘 Git Commit Type 規範
 
 1. feat: 新增/修改功能 (feature)。
 2. fix: 修補 bug (bug fix)。
