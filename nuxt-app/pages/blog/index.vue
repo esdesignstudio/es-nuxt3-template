@@ -32,7 +32,7 @@
 
     const { data: pageData } = await useAsyncData(
         'get_archive_blog-all',
-        () => $fetch( useRuntimeConfig().apiBase + '/get_archive_blog', {
+        () => $fetch( useRuntimeConfig().apiUrl + '/get_archive_blog', {
             method: 'POST',
             body: {
                 cat_slug: 'all',
@@ -45,7 +45,7 @@
 
     // 換頁
     router.beforeEach((to, from) => {
-        $fetch(useRuntimeConfig().apiBase + '/get_archive_blog', {
+        $fetch(useRuntimeConfig().apiUrl + '/get_archive_blog', {
             method: 'POST',
             body: {
                 cat_slug: 'all',

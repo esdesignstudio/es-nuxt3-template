@@ -34,16 +34,16 @@ $font-family: (
             line-height: 1.4;
 
         } @else if $type == 2 {
-            font-size: 48px;
+            font-size: 3rem;
             font-family: map-get($font-family, en);
-            font-weight: map-get($font-weight, normal);
+            font-weight: map-get($font-weight, bold);
             @include media-breakpoint-down(tablet) {
                 font-size: 36px;
             }
         } @else if $type == 3 {
             font-size: 14px;
             font-family: map-get($font-family, default);
-            font-weight: map-get($font-weight, normal);
+            font-weight: map-get($font-weight, bold);
             line-height: normal;
 
             body.language-en &, &.-en {

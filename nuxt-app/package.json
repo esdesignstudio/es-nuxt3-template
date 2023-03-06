@@ -7,21 +7,19 @@
     "preview": "nuxt preview"
   },
   "devDependencies": {
-    "@intlify/nuxt3": "^0.2.4",
+    "@nuxtjs/i18n": "^8.0.0-beta.10",
     "@nuxtjs/style-resources": "^1.2.1",
-    "nuxt": "^3.0.0",
+    "nuxt": "^3.2.2",
+    "nuxt-icons": "^3.1.0",
     "sass": "^1.52.1",
     "sass-loader": "^13.0.0",
-    "stylelint": "^14.8.3",
-    "svg-sprite-loader": "^6.0.11",
-    "vue-i18n": "^9.2.2"
+    "stylelint": "^14.8.3"
   },
   "dependencies": {
+    "@formkit/nuxt": "^1.0.0-beta.15",
     "dayjs": "^1.11.5",
-    "imagesloaded": "^5.0.0",
     "nuxt-jsonld": "^2.0.7",
     "swiper": "^8.1.5",
-    "vee-validate": "^4.6.9",
     "vue-gtag-next": "^1.14.0"
   }
 }

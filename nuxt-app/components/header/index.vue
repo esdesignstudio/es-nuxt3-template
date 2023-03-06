@@ -6,6 +6,7 @@
                     to="/"
                     class="header-index__logo"
                 >
+                    <nuxt-icon name="logo" />
                     ES TEMPLATE
                 </NuxtLink>
                 <div class="header-index__navigation">
@@ -32,9 +33,14 @@ $class-name: header-index;
         align-items: center;
         justify-content: space-between;
         border-bottom: 1px solid rgba(0,0,0,.2);
+
+        span {
+            margin-right: 1rem;
+            display: inline-block
+        }
     }
     &__logo {
-        @include typo('display', 1);
+        @include typo('display', 2);
     }
 }
 </style>

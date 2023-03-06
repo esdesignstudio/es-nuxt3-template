@@ -1,6 +1,6 @@
 <template>
     <div id="wrapper" class="wrapper">
-        <NuxtLoadingIndicator height="5" />
+        <NuxtLoadingIndicator />
         <Header />
         <main data-scroll-container>
             <NuxtPage />

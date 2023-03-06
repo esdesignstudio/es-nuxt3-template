@@ -25,14 +25,17 @@ export default defineNuxtConfig({
                 { name: 'twitter:card', content: 'summary_large_image' },
             ],
             link: [
-                { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico?v1' },
+                { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
                 {
-                    href: 'https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&family=Poppins:wght@400;600&display=swap',
+                    href: 'https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;700&display=swap',
                     rel: 'stylesheet',
                 },
             ],
             noscript: [
-                { children: '😚 ES Design：此網站必須啟用 ✪ Javascript ✪' }
+                { children: '😚' + process.env.APP_NAME + '：此網站必須啟用 ✪ Javascript ✪' }
+            ], 
+            script: [
+                { src: 'https://static.line-scdn.net/liff/edge/2/sdk.js'}
             ]
         }
     },
@@ -54,39 +57,41 @@ export default defineNuxtConfig({
             alias: {
                 '~': resolve(__dirname, './assets/')
             }
+        },
+        server: { // 解決開發時 websocket 問題
+            hmr: {
+                protocol: 'ws',
+                host: 'localhost'
+            }
         }
     },
     modules: [
-        'nuxt-jsonld',
-        '@intlify/nuxt3'
+        '@nuxtjs/i18n',
+        '@formkit/nuxt',
+        'nuxt-icons'
     ],
-    intlify: {
+    i18n: {
+        defaultLocale: 'zh',
+        lazy: true,
+        langDir: 'lang',
+        detectBrowserLanguage: {
+            useCookie: false
+        },
+        locales: [
+            { code: 'zh', file: 'zh/index.js' },
+            { code: 'en', file: 'en/index.js' }
+        ],
         vueI18n: {
-            locale: 'zh',
-            fallbackLocale: 'zh'
+          // If fallback is needed, you need to define
+          fallbackLocale: 'en',
         }
-    },
-    // i18n 目前不支援 nuxt3 routing，要自行創建 en 連結
-    // https://github.com/nuxt/framework/discussions/5901
-    hooks: { 
-        // 'pages:extend': (pages) => {
-        //     // pages.push({
-        //     //     name: 'works-slug',
-        //     //     path: '/works/:slug',
-        //     //     file: resolve(__dirname, './pages/works/_slug.vue')
-        //     // })
-        //     pages.push({
-        //         name: 'en-index',
-        //         path: '/en',
-        //         file: resolve(__dirname, './pages/index.vue')
-        //     })
-        // }
     },
     runtimeConfig: {
         public: {
-            apiBase: process.env.API_DEV_URL + '/wp-json/api',
+            siteUrl: process.env.SITE_URL,
+            apiUrl: process.env.API_URL + '/wp-json/api',
             siteName: process.env.APP_NAME
         },
     },
-    debug: false
+    // debug: true,
 })

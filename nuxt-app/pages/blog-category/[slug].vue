@@ -31,7 +31,7 @@
 
     const { data: pageData } = await useAsyncData(
         'get_archive_blog' + route.params.slug,
-        () => $fetch( useRuntimeConfig().apiBase + '/get_archive_blog', {
+        () => $fetch( useRuntimeConfig().apiUrl + '/get_archive_blog', {
             method: 'POST',
             body: {
                 cat_slug: route.params.slug,
@@ -44,7 +44,7 @@
     console.log('pageData', pageData.value)
     // 換頁
     router.beforeEach((to, from) => {
-        $fetch(useRuntimeConfig().apiBase + '/get_archive_blog', {
+        $fetch(useRuntimeConfig().apiUrl + '/get_archive_blog', {
             method: 'POST',
             body: {
                 cat_slug: route.params.slug,

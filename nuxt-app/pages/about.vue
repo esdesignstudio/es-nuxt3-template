@@ -13,7 +13,7 @@
 
     const { data: pageData } = await useAsyncData(
         'get_page_custom-about',
-        () => $fetch( useRuntimeConfig().apiBase + '/get_page_custom', {
+        () => $fetch( useRuntimeConfig().apiUrl + '/get_page_custom', {
             method: 'POST',
             body: {
                 id: 1899,

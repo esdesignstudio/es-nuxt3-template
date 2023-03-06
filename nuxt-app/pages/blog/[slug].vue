@@ -9,7 +9,7 @@
     const route = useRoute()
     const { data: pageData } = await useAsyncData(
         'get_single_blog' + route.params.slug,
-        () => $fetch( useRuntimeConfig().apiBase + '/get_single_blog', {
+        () => $fetch( useRuntimeConfig().apiUrl + '/get_single_blog', {
             method: 'POST',
             body: {
                 slug: route.params.slug,
