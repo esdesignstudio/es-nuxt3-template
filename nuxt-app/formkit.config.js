@@ -1,5 +1,5 @@
 import { en } from '@formkit/i18n'
-import { genesisIcons } from '@formkit/icons'
+// import { genesisIcons } from '@formkit/icons'
 import stepNumber from '/plugins/formkit/stepNumber.js'
 import addAster from '/plugins/formkit/addAster.js'
 // import scrollToErrors from '/plugins/formkit/scrollToErrors.js'
@@ -10,7 +10,7 @@ import addAster from '/plugins/formkit/addAster.js'
 // key參考 https://github.com/formkit/formkit/blob/master/packages/i18n/src/locales/en.ts
 export default ({
     icons: {
-        ...genesisIcons,
+        // ...genesisIcons,
     },
     /**
      * Validation rules to add or override.
