@@ -68,7 +68,7 @@
 $class-name: blog-archive;
 .#{$class-name} {
     h1 {
-        @include typo('heading', 2);
+        @include typo('head', 2);
 
         text-align: center;
         margin-bottom: 2rem;

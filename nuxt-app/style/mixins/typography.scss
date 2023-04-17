@@ -52,7 +52,7 @@ $font-family: (
         } @else {
             @error '#{$type}:沒有這個type';
         }
-    } @else if $lv == 'heading' {
+    } @else if $lv == 'head' {
         @if $type == 1 {
             font-size: 2rem;
             line-height: 1.6;

@@ -32,6 +32,9 @@
         }, {
             name: 'Blog',
             link: '/blog',
+        }, {
+            name: 'Form',
+            link: '/form',
         },
     ])
 </script>
@@ -43,7 +46,7 @@ $class-name: navigation-main;
 
         li {
             a {
-                @include typo('heading', 2);
+                @include typo('head', 2);
 
                 padding-left: 1rem;
 

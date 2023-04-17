@@ -41,7 +41,7 @@
     .#{$class-name} {
         &__content {
             h1 {
-                @include typo('heading', 1);
+                @include typo('head', 1);
 
                 padding: 5rem 0;
             }

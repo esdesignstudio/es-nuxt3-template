@@ -74,7 +74,7 @@ $class-name: blog-archive;
         li {
             a {
                 @include size(100%, auto);
-                @include typo('heading', 2);
+                @include typo('head', 2);
 
                 padding: 2rem;
                 margin-bottom: 2rem;

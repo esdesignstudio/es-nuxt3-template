@@ -27,10 +27,11 @@ $class-name: loading;
     top: 0;
     left: 0;
     position: fixed;
+    z-index: 9999;
 
     > div {
         @include size(100%);
-        @include typo('heading', 2);
+        @include typo('head', 2);
 
         color: map-get($colors, white);
         z-index: 1;
@@ -50,7 +51,7 @@ $class-name: loading;
         z-index: 0;
         position: absolute;
         transform-origin: 0 0;
-        background-color: map-get($colors, black);
+        background-color: map-get($colors, black-1);
         transition: transform 1s .1s cubic-bezier(0.87, 0, 0.13, 1);
     }
 
