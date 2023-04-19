@@ -7,43 +7,28 @@ ES 開發的 Nuxt3 x WordPress 版本，專門使用在客製化專案客戶。
 免費商用，請隨意下載。
 
 ## 環境
-
-- Node -- v18.14.0
+- Node -- v16.16.0
 - yarn -- 1.22.19
 
 ## 安裝步驟
-
-1. 到 /.env 以及 nuxt-app/.env 檔設定基本環境
-2. docker-compose up -d
-3. cd nuxt-app
-4. yarn && yarn dev
-5. 專案啟動在
+1. 安裝 Docker desktop
+2. 到 /.env 以及 nuxt-app/.env 檔設定基本環境
+3. docker-compose up -d
+4. cd nuxt-app
+5. yarn && yarn dev
+6. 專案啟動在
    nuxt localhost:3000,
    wordpress localhost:9000/wp-admin
 
 ## 資料庫輸出
-
 1. `sh dump.sh` 將 docker VM 的 DB 資料匯出至 `/db/default/wp.sql`
 
-## 前端上傳步驟
-
-1. stash 未 commit 的檔案後切換至 `deploy` 分支
-2. rebase `deploy` 至 `master`
-3. 確認於 `deploy` 分支下 `yarn build`
-4. commit `/.output` 所有檔案
-5. 連線主機
-6. 於專案資料夾下`/project-name` 輸入 `git reset --hard origin/deploy` 、 `git pull origin deploy`
-7. 開啟 `pm2` 可以先 `pm2 delete project-name`，或者直接 `pm2 restart project-name`
-8. 沒有開過 `pm2` 則 `cd /project-name/nuxt-app` 輸入 `pm2 start --env prod`
-
-## 其他套件文件
-
+## 相關文件
 - [Nuxt3](https://nuxt.com/)
 - [Nuxt Icons](https://github.com/gitFoxCode/nuxt-icons)
 - [Formkit](https://formkit.com/getting-started/what-is-formkit)
 
 ## Git Commit Type 規範
-
 1. feat: 新增/修改功能 (feature)。
 2. fix: 修補 bug (bug fix)。
 3. docs: 文件，增加說明 (documentation)。
