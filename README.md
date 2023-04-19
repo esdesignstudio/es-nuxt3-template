@@ -20,24 +20,34 @@ ES 開發的 Nuxt3 x WordPress 版本，專門使用在客製化專案客戶。
    nuxt localhost:3000,
    wordpress localhost:9000/wp-admin
 
-## 資料庫輸出
-1. `sh dump.sh` 將 docker VM 的 DB 資料匯出至 `/db/default/wp.sql`
+## WordPress 主題
+```
+├─ function.php 組裝所有資料
+├─ /setting 主題設定檔
+├─ /api
+ 　├─ /router API 路徑
+ 　└─ index.php 組裝 API
+```
+資料庫輸出
+`sh dump.sh` 將 docker VM 的 DB 資料匯出至 `/db/default/wp.sql`
 
-## 相關文件
+## 其他相關文件
 - [Nuxt3](https://nuxt.com/)
 - [Nuxt Icons](https://github.com/gitFoxCode/nuxt-icons)
 - [Formkit](https://formkit.com/getting-started/what-is-formkit)
+- [Swiper](https://swiperjs.com/swiper-api)
 
 ## Git Commit Type 規範
-1. feat: 新增/修改功能 (feature)。
-2. fix: 修補 bug (bug fix)。
-3. docs: 文件，增加說明 (documentation)。
-4. backup: 備份。EX： SQL 檔案
-5. data: 資料變化。EX：圖片、固定文案、動態資料
-6. style: 格式 (不影響程式碼運行的變動 white-space, formatting, missing semi colons, etc)。
-7. refactor: 重構 (既不是新增功能，也不是修補 bug 的程式碼變動)。
-8. perf: 改善效能 (A code change that improves performance)。
-9. test: 增加測試 (when adding missing tests)。
-10. chore: 建構程序或輔助工具的變動 (maintain)。
-11. revert: 撤銷回覆先前的 commit 例如：revert: type(scope): subject (回覆版本：xxxx)。
-12. deploy: 部署相關檔案
+
+| 前綴名稱 | 說明 |
+| :---- | :---- |
+| feat | 新增/修改功能 (feature)。|
+| fix | 修補 bug (bug fix)。|
+| docs | 文件，增加說明 (documentation)。|
+| data | 資料變化：圖片、固定文案、動態資料、備份 |
+| style | 格式 (不影響程式碼運行的變動 white-space, formatting, missing semi colons, etc)。 |
+| perf | 改善程式 / 效能 |
+| test | 測試 |
+| chore | 建構程序或輔助工具的變動 |
+| revert | 撤回先前的 |
+| deploy | 部署 |
