@@ -1,5 +1,4 @@
-import member from './member.js'
+// import member from './member.js'
 export default {
-    member,
     switcher: '中文'
 }

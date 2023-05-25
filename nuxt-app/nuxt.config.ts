@@ -1,4 +1,6 @@
 import { resolve, dirname } from 'node:path'
+import en from './lang/en/index.js'
+import zh from './lang/zh/index.js'
 
 export default defineNuxtConfig({
     app: {
@@ -66,23 +68,21 @@ export default defineNuxtConfig({
         }
     },
     modules: [
+        // translateModule,
         '@nuxtjs/i18n',
         '@formkit/nuxt',
         'nuxt-icons'
     ],
     i18n: {
         defaultLocale: 'zh',
-        lazy: true,
-        langDir: 'lang',
         detectBrowserLanguage: {
             useCookie: false
         },
-        locales: [
-            { code: 'zh', file: 'zh/index.js' },
-            { code: 'en', file: 'en/index.js' }
-        ],
         vueI18n: {
-          // If fallback is needed, you need to define
+            messages: {
+                en: en,
+                zh: zh
+            },
           fallbackLocale: 'en',
         }
     },
