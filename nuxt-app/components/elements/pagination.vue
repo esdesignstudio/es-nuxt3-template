@@ -6,12 +6,16 @@
                 :key="page.label"
                 :class="{'active': page.active}"
             >
-                <NuxtLink
-                    v-if="page.slug !== false"
-                    :to="route.path + page.slug"
+                <button
+                    @click="pagechange(page)"
+                    :class="{
+                        '-hide': page.slug === false,
+                        '-prev': page.label === 'prev',
+                        '-next': page.label === 'next',
+                    }"
                 >
-                    {{ page.label }}
-                </NuxtLink>
+                    <p v-text="page.label"></p>
+                </button>
             </li>
         </ul>
     </div>
@@ -25,6 +29,13 @@
         },
     })
 
+    const emit = defineEmits(['pagechange'])
+    const pagechange = (page) => {
+        emit('pagechange', page.slug.split('=')[1])
+        // $LCscroll.scrollTo(0, {
+        //     duration: 100,
+        // })
+    }
 </script>
 <style lang="scss">
     $class-name: pagination;
@@ -35,7 +46,7 @@
         li {
             display: inline-block;
 
-            a {
+            button {
                 padding: 0 1rem;
             }
         }
