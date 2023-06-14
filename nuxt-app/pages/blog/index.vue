@@ -8,6 +8,8 @@
                 <li
                     v-for="post in pageData?.posts"
                     :key="post.id"
+                    v-inview
+                    v-fade
                 >
                     <NuxtLink
                         :to="'/blog/' + post.slug"
