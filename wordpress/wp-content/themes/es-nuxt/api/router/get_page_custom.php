@@ -4,14 +4,14 @@ function get_page_custom($request)
     $parameters = $request->get_params();
     $response['status'] = 404;
 
-    $post = get_post($request['id']);
-    // $postID = pll_get_post($requestID, $parameters['locale']);
-    $postID = $post->ID;
+    $post = get_post($parameters['id']);
+    // $post = pll_get_post($parameters['id'], $parameters['locale']); 多國語言使用
 
     if ($post) {
-        $fields = get_fields($postID);
-        $fields['post'] = get_post($postID);
-        $response = $fields;
+        $fields = get_fields($post->ID);
+        $fields['post'] = $post;
+
+        $response['data'] = $fields;
         $response['status'] = 200;
     }
 

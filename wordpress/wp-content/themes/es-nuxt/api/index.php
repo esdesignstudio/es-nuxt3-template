@@ -1,6 +1,5 @@
 <?php
 require_once 'router/get_page_custom.php';
-require_once 'router/get_page_home.php';
 require_once 'router/get_global.php';
 
 require_once 'router/get_archive_blog.php';
@@ -21,11 +20,6 @@ add_action('rest_api_init', function () {
     register_rest_route('api', '/get_page_custom', array(
         'methods' => 'POST',
         'callback' => 'get_page_custom'
-    ));
-    
-    register_rest_route('api', '/get_page_home', array(
-        'methods' => 'POST',
-        'callback' => 'get_page_home'
     ));
     
     register_rest_route('api', '/get_archive_blog', array(

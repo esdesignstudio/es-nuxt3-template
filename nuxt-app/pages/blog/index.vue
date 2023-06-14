@@ -35,7 +35,6 @@
         () => $fetch( useRuntimeConfig().apiUrl + '/get_archive_blog', {
             method: 'POST',
             body: {
-                cat_slug: 'all',
                 page: route.query.page || 1,
                 posts_per_page: 4
                 // locale: locale.value 多國語言要自帶

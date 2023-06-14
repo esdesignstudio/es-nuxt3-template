@@ -83,7 +83,7 @@ export default defineNuxtConfig({
                 en: en,
                 zh: zh
             },
-          fallbackLocale: 'en',
+          fallbackLocale: 'zh',
         }
     },
     runtimeConfig: {
