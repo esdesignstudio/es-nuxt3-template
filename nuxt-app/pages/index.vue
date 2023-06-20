@@ -2,7 +2,10 @@
     <div class="page-index">
         <div class="container">
             <div class="page-index__content">
-                <h1>細節不單只是細節，它們成就了設計<br>我們追求那小小會心一驚的設計<br>The details are not the details. They make the design.</h1>
+                <h1
+                    v-inview
+                    v-parallax="-0.4"
+                >細節不單只是細節，它們成就了設計<br>我們追求那小小會心一驚的設計<br>The details are not the details. They make the design.</h1>
                 <pre>{{ pageData }}</pre>
             </div>
         </div>
