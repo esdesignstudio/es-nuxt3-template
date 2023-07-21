@@ -4,7 +4,8 @@
     "build": "nuxt build",
     "dev": "nuxt dev",
     "generate": "nuxt generate",
-    "preview": "nuxt preview"
+    "preview": "nuxt preview",
+    "start": "nuxt start"
   },
   "devDependencies": {
     "@nuxtjs/i18n": "^8.0.0-beta.10",
