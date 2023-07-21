@@ -1,4 +1,5 @@
 version: '3.8'
+version: '3.7'
 services:
     nginx:
         container_name: ${COMPOSE_PROJECT_NAME}_nginx
