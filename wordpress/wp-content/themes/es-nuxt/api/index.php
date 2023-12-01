@@ -9,6 +9,7 @@ require_once 'router/get_single_blog.php';
  * origin api
  * wp-json/wp/v2/[router]
  */
+// !! 注意，後台「設定->永久連結」需要改成「http://localhost:9000/sample-post/」才可以生效
 
 add_action('rest_api_init', function () {
 
