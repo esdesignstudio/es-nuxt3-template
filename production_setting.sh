@@ -11,7 +11,11 @@ if [ -z "$COMPOSE_PROJECT_NAME" ] || [ -z "$WP_URL" ]; then
     exit 1
 fi
 
-PRODUCTION_DOMAIN=$(echo "$WP_URL" | sed 's/.*\/\///')
+PRODUCTION_DOMAIN=$(echo "$WP_URL" | sed 's/.*\/\///; s/\/.*//')
+if [ -z "$PRODUCTION_DOMAIN" ]; then
+    echo "無法取得Domain設定。請檢查 .env 檔案。"
+    exit 1
+fi
 
 echo "PRODUCTION_DOMAIN = $PRODUCTION_DOMAIN"
 
