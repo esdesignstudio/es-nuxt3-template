@@ -6,10 +6,14 @@ if [ -f .env ]; then
 fi
 
 # 檢查是否已定義必要的變數
-if [ -z "$COMPOSE_PROJECT_NAME" ] || [ -z "$PRODUCTION_DOMAIN" ] || [ -z "$WP_URL" ]; then
+if [ -z "$COMPOSE_PROJECT_NAME" ] || [ -z "$WP_URL" ]; then
     echo "未定義必要的變數: COMPOSE_PROJECT_NAME PRODUCTION_DOMAIN WP_URL。請檢查 .env 檔案。"
     exit 1
 fi
+
+PRODUCTION_DOMAIN=$(echo "$WP_URL" | sed 's/.*\/\///')
+
+echo "PRODUCTION_DOMAIN = $PRODUCTION_DOMAIN"
 
 # 檢查Docker是否已安裝
 if ! command -v docker &> /dev/null; then
