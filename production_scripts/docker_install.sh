@@ -18,8 +18,3 @@ sudo apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plug
 
 # 測試docker
 # sudo docker run hello-world
-
-# 安裝nginx
-sudo apt-get install -y nginx
-sudo ufw allow 'Nginx Full'
-sudo systemctl restart nginx

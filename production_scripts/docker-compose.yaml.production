@@ -50,6 +50,7 @@ services:
         image: mariadb:10.5
         volumes: 
             - ./db/production:/docker-entrypoint-initdb.d
+            - /db/${COMPOSE_PROJECT_NAME}:/var/lib/mysql
         environment:
             MYSQL_ROOT_PASSWORD: $WP_MYSQL_ROOT_PASSWORD
             MYSQL_DATABASE: $WP_MYSQL_DATABASE
