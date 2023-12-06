@@ -20,21 +20,21 @@ fi
 echo "PRODUCTION_DOMAIN = $PRODUCTION_DOMAIN"
 
 # 檢查Docker是否已安裝
-if ! command -v docker &> /dev/null; then
+if [ -x /usr/bin/docker ]; then
+    echo "Docker已安裝!!"
+else
     echo "********** Docker尚未安裝，開始安裝... **********"
     # 執行安裝腳本
     sudo sh production_scripts/docker_install.sh
-else
-    echo "Docker已安裝!!"
 fi
 
 # 檢查Nginx是否已安裝
-if ! command -v nginx &> /dev/null; then
+if [ -x /usr/sbin/nginx ]; then
+    echo "Nginx已安裝!!"
+else
     echo "********** Nginx尚未安裝，開始安裝... **********"
     # 執行安裝腳本
     sudo sh production_scripts/nginx_install.sh
-else
-    echo "Nginx已安裝!!"
 fi
 
 # 建立nginx設定檔
