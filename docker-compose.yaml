@@ -43,6 +43,8 @@ services:
             - UPLOAD_LIMIT=300M
         ports:
             - $WP_PORT_PHP_MY_ADMIN:80
+        networks:
+            - nuxt-network
 
     mysql:
         container_name: ${COMPOSE_PROJECT_NAME}_mysql-maria
