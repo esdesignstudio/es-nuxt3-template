@@ -6,8 +6,8 @@ if [ -f .env ]; then
 fi
 
 # 檢查是否已定義必要的變數
-if [ -z "$COMPOSE_PROJECT_NAME" ] || [ -z "$WP_URL" ]; then
-    echo "未定義必要的變數: COMPOSE_PROJECT_NAME PRODUCTION_DOMAIN WP_URL。請檢查 .env 檔案。"
+if [ -z "$COMPOSE_PROJECT_NAME" ] || [ -z "$WP_URL" ] || [ -z "$WP_PORT" ]; then
+    echo "未定義必要的變數: COMPOSE_PROJECT_NAME、WP_URL、WP_PORT。請檢查 .env 檔案。"
     exit 1
 fi
 
@@ -37,9 +37,23 @@ else
     sudo sh deployment_scripts/nginx_install.sh
 fi
 
+# 檢查port是否被佔用
+if [ "$WP_URL" -ge 1 ] && [ "$WP_URL" -le 65535 ]; then
+    if lsof -Pi :$WP_URL -sTCP:LISTEN -t >/dev/null; then
+        echo "端口 $WP_URL 被占用"
+        echo "占用端口信息："
+        lsof -i :$WP_URL
+        exit 1  # 如果端口被占用停止執行
+    else
+    if  
+else
+    echo "無效的端口:$WP_URL"
+    exit 1
+fi
+
 # 建立nginx設定檔
 echo "********** 建立nginx設定檔 **********"
-sudo sh deployment_scripts/nginx_setting.sh $COMPOSE_PROJECT_NAME $PRODUCTION_DOMAIN
+sudo sh deployment_scripts/nginx_setting.sh $COMPOSE_PROJECT_NAME $PRODUCTION_DOMAIN $WP_PORT
 
 # 修改wp.sql中的連結
 echo "********** 修改wp.sql中的連結設定 **********"

@@ -1,22 +1,13 @@
 #!/bin/bash
 
-# if [ -f .env ]; then
-#     export $(cat .env | grep -v '#' | awk '/=/ {print $1}')
-# fi
-
-# 檢查是否已定義必要的變數
-# if [ -z "$PRODUCTION_PROJECT_NAME" ] || [ -z "$DOMAIN" ]; then
-#     echo "未定義必要的變數 project_name 或 domainame_com。請檢查 .env 檔案。"
-#     exit 1
-# fi
-
-if [ $# -ne 2 ]; then
-    echo "nginx_setting.sh fail - 請提供2個參數：專案名稱和域名"
+if [ $# -ne 3 ]; then
+    echo "nginx_setting.sh fail - 請提供3個參數：專案名稱、域名、port"
     exit 1
 fi
 
 PROJECT_NAME=$1
 DOMAIN=$2
+PORT=$3
 
 # 檢查是否有權限寫入到 /etc/nginx/sites-enabled/
 if [ -w "/etc/nginx/sites-enabled/" ]; then
@@ -27,7 +18,7 @@ if [ -w "/etc/nginx/sites-enabled/" ]; then
         server_name $DOMAIN;
 
         location / {
-            proxy_pass http://127.0.0.1:9000;
+            proxy_pass http://127.0.0.1:$PORT;
 
             proxy_redirect                      off;
             proxy_set_header Host               \$host;
