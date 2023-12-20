@@ -38,15 +38,15 @@ else
 fi
 
 # 檢查port是否被佔用
-if [ "$WP_URL" -ge 1 ] && [ "$WP_URL" -le 65535 ]; then
-    if sudo lsof -Pi :$WP_URL -sTCP:LISTEN -t >/dev/null; then
-        echo "端口 $WP_URL 被占用"
+if [ "$WP_PORT" -ge 1 ] && [ "$WP_PORT" -le 65535 ]; then
+    if sudo lsof -Pi :$WP_PORT -sTCP:LISTEN -t >/dev/null; then
+        echo "端口 $WP_PORT 被占用"
         echo "占用端口信息："
-        sudo lsof -i :$WP_URL
+        sudo lsof -i :$WP_PORT
         exit 1  # 如果端口被占用停止執行
     fi
 else
-    echo "無效的端口:$WP_URL"
+    echo "無效的端口:$WP_PORT"
     exit 1
 fi
 
