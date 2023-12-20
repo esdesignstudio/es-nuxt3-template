@@ -25,7 +25,7 @@ if [ -x /usr/bin/docker ]; then
 else
     echo "********** Docker尚未安裝，開始安裝... **********"
     # 執行安裝腳本
-    sudo sh production_scripts/docker_install.sh
+    sudo sh deployment_scripts/docker_install.sh
 fi
 
 # 檢查Nginx是否已安裝
@@ -34,16 +34,16 @@ if [ -x /usr/sbin/nginx ]; then
 else
     echo "********** Nginx尚未安裝，開始安裝... **********"
     # 執行安裝腳本
-    sudo sh production_scripts/nginx_install.sh
+    sudo sh deployment_scripts/nginx_install.sh
 fi
 
 # 建立nginx設定檔
 echo "********** 建立nginx設定檔 **********"
-sudo sh production_scripts/nginx_setting.sh $COMPOSE_PROJECT_NAME $PRODUCTION_DOMAIN
+sudo sh deployment_scripts/nginx_setting.sh $COMPOSE_PROJECT_NAME $PRODUCTION_DOMAIN
 
 # 修改wp.sql中的連結
 echo "********** 修改wp.sql中的連結設定 **********"
-sudo sh production_scripts/repleace_db_url.sh db/production/wp.sql $WP_URL
+sudo sh deployment_scripts/repleace_db_url.sh db/production/wp.sql $WP_URL
 
 # 啟動 docker
 echo "********** 啟動 docker **********"
@@ -51,6 +51,6 @@ sudo docker-compose up -d
 
 # 修改wp-content/uploads的資料夾權限
 echo "********** 修改wp-content/uploads的資料夾權限 **********"
-sudo sh production_scripts/wp_permission_setting.sh $COMPOSE_PROJECT_NAME
+sudo sh deployment_scripts/wp_permission_setting.sh $COMPOSE_PROJECT_NAME
 
 echo "設定完成！！"

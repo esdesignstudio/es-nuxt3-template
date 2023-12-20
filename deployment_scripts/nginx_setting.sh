@@ -5,7 +5,7 @@
 # fi
 
 # 檢查是否已定義必要的變數
-# if [ -z "$PRODUCTION_PROJECT_NAME" ] || [ -z "$PRODUCTION_DOMAIN" ]; then
+# if [ -z "$PRODUCTION_PROJECT_NAME" ] || [ -z "$DOMAIN" ]; then
 #     echo "未定義必要的變數 project_name 或 domainame_com。請檢查 .env 檔案。"
 #     exit 1
 # fi
@@ -16,7 +16,7 @@ if [ $# -ne 2 ]; then
 fi
 
 PROJECT_NAME=$1
-PRODUCTION_DOMAIN=$2
+DOMAIN=$2
 
 # 檢查是否有權限寫入到 /etc/nginx/sites-enabled/
 if [ -w "/etc/nginx/sites-enabled/" ]; then
@@ -24,7 +24,7 @@ if [ -w "/etc/nginx/sites-enabled/" ]; then
     config_path="/etc/nginx/sites-enabled/$PROJECT_NAME"
     config_content="server {
         listen 80;
-        server_name $PRODUCTION_DOMAIN;
+        server_name $DOMAIN;
 
         location / {
             proxy_pass http://127.0.0.1:9000;
