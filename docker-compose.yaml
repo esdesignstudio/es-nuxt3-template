@@ -15,7 +15,7 @@ services:
 
     wordpress:
         container_name: ${COMPOSE_PROJECT_NAME}_wordpress
-        image: wordpress:5.7.0-php8.0-fpm-alpine
+        image: wordpress:6.4.3-php8.1
         volumes:
             - ./wordpress:/var/www/html
         depends_on:

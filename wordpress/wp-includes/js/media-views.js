@@ -2465,8 +2465,10 @@ AttachmentCompat = View.extend(/** @lends wp.media.view.AttachmentCompat.prototy
 	},
 
 	initialize: function() {
-		this.listenTo( this.model, 'change:compat', this.render );
+		// Render the view when a new item is added.
+		this.listenTo( this.model, 'add', this.render );
 	},
+
 	/**
 	 * @return {wp.media.view.AttachmentCompat} Returns itself to allow chaining.
 	 */
@@ -5671,7 +5673,12 @@ EmbedUrl = View.extend(/** @lends wp.media.view.EmbedUrl.prototype */{
 			return;
 		}
 
-		this.input.value = this.model.get('url') || 'http://';
+		if ( this.model.get( 'url' ) ) {
+			this.input.value = this.model.get('url');
+		} else {
+			this.input.setAttribute( 'placeholder', 'https://' );
+		}
+
 		/**
 		 * Call `render` directly on parent class with passed arguments
 		 */

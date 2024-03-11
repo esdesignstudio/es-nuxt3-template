@@ -1,0 +1,26 @@
+[04-Oct-2021 08:50:48 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 375
+[04-Oct-2021 08:51:21 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 778
+[04-Oct-2021 08:51:53 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 778
+[04-Oct-2021 08:52:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 778
+[04-Oct-2021 08:52:58 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 778
+[06-Jun-2022 20:01:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-admin/admin-functions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-admin/admin-functions.php on line 12
+[06-Jun-2022 22:30:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-admin/admin-functions.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-admin/admin-functions.php on line 12
+[06-Oct-2022 01:45:34 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/jwhuang/public_html/wp-content/themes/ubitus/include/ajax.php on line 8
+[29-Dec-2022 08:10:59 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 801
+[29-Dec-2022 08:15:41 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 801
+[02-Mar-2023 08:20:17 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 375
+[02-Mar-2023 08:21:30 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 375
+[02-Mar-2023 08:22:33 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 375
+[02-Mar-2023 08:22:34 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 373
+[02-Mar-2023 08:24:04 UTC] PHP Fatal error:  Maximum execution time of 60 seconds exceeded in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 375
+[06-Apr-2023 09:31:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/jwhuang/public_html/wp-content/themes/ubitus/include/ajax.php on line 8
+[17-Nov-2023 07:36:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/jwhuang/public_html/wp-content/themes/ubitus/include/ajax.php on line 8
+[17-Nov-2023 07:36:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/jwhuang/public_html/wp-content/themes/ubitus/include/ajax.php on line 8
+[17-Nov-2023 07:36:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/jwhuang/public_html/wp-content/themes/ubitus/include/ajax.php on line 8
+[17-Nov-2023 07:36:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home1/jwhuang/public_html/wp-content/themes/ubitus/include/ajax.php on line 8

@@ -1,0 +1,16 @@
+[09-Jul-2023 12:30:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/jwhuang/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-admin/includes/admin.php on line 16
+[09-Jul-2023 12:30:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/jwhuang/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-admin/includes/admin.php on line 16
+[12-Jul-2023 15:17:17 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/jwhuang/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-admin/includes/admin.php on line 16
+[12-Jul-2023 15:17:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/jwhuang/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-admin/includes/admin.php on line 16

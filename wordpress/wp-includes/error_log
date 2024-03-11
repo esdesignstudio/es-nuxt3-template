@@ -1,0 +1,462 @@
+[30-Jul-2021 08:51:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[01-Aug-2021 14:16:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[03-Aug-2021 22:24:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[06-Aug-2021 01:41:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[06-Aug-2021 05:20:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[07-Aug-2021 09:54:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[07-Aug-2021 15:21:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[11-Aug-2021 02:24:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[12-Aug-2021 04:14:25 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[13-Aug-2021 01:36:48 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[13-Aug-2021 21:30:29 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[14-Aug-2021 10:48:57 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[15-Aug-2021 15:43:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[15-Aug-2021 17:54:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[15-Aug-2021 19:54:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[17-Aug-2021 06:41:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[17-Aug-2021 12:49:26 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[20-Aug-2021 23:53:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[22-Aug-2021 01:19:23 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[22-Aug-2021 20:49:45 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[24-Aug-2021 00:38:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[27-Aug-2021 16:17:13 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[27-Aug-2021 20:16:19 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[27-Aug-2021 21:47:15 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[28-Aug-2021 01:05:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[28-Aug-2021 08:47:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[29-Aug-2021 01:00:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[30-Aug-2021 00:54:31 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[30-Aug-2021 03:16:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[31-Aug-2021 15:34:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[03-Sep-2021 04:04:08 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[03-Sep-2021 13:14:36 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[05-Sep-2021 03:23:56 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[05-Sep-2021 06:42:01 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[06-Sep-2021 23:22:53 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[07-Sep-2021 19:59:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_theme_support() in /home1/jwhuang/public_html/wp-includes/block-patterns.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/block-patterns.php on line 9
+[07-Sep-2021 19:59:05 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/cache.php on line 12
+[07-Sep-2021 19:59:05 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/cache.php on line 12
+[07-Sep-2021 19:59:05 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/class-wp-object-cache.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/cache.php on line 12
+[07-Sep-2021 19:59:05 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-wp-object-cache.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/cache.php on line 12
+[07-Sep-2021 19:59:08 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-IXR.php on line 42
+[07-Sep-2021 19:59:08 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-IXR.php on line 42
+[07-Sep-2021 19:59:08 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/IXR/class-IXR-server.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/class-IXR.php on line 42
+[07-Sep-2021 19:59:08 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/IXR/class-IXR-server.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/class-IXR.php on line 42
+[07-Sep-2021 19:59:09 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/class-feed.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-feed.php on line 10
+[07-Sep-2021 19:59:10 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-http.php on line 11
+[07-Sep-2021 19:59:10 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-http.php on line 11
+[07-Sep-2021 19:59:10 America/Chicago] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/class-http.php on line 11
+[07-Sep-2021 19:59:10 America/Chicago] PHP Warning:  require(ABSPATHWPINC/class-requests.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/class-http.php on line 11
+[07-Sep-2021 19:59:10 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-requests.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/class-http.php on line 11
+[07-Sep-2021 19:59:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/class-json.php:2
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-json.php on line 2
+[07-Sep-2021 19:59:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/class-oembed.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-oembed.php on line 12
+[07-Sep-2021 19:59:15 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 19:59:15 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 19:59:15 America/Chicago] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 19:59:15 America/Chicago] PHP Warning:  require(ABSPATHWPINC/SimplePie/Misc.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 19:59:15 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/SimplePie/Misc.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/class-simplepie.php on line 5
+[07-Sep-2021 19:59:15 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/class-smtp.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-smtp.php on line 6
+[07-Sep-2021 19:59:16 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/class-snoopy.php:6
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-snoopy.php on line 6
+[07-Sep-2021 19:59:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/jwhuang/public_html/wp-includes/class-walker-category-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-walker-category-dropdown.php on line 17
+[07-Sep-2021 19:59:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/jwhuang/public_html/wp-includes/class-walker-category.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-walker-category.php on line 17
+[07-Sep-2021 19:59:18 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/jwhuang/public_html/wp-includes/class-walker-comment.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-walker-comment.php on line 17
+[07-Sep-2021 19:59:19 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/jwhuang/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[07-Sep-2021 19:59:19 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/jwhuang/public_html/wp-includes/class-walker-page-dropdown.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-walker-page-dropdown.php on line 17
+[07-Sep-2021 19:59:20 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/jwhuang/public_html/wp-includes/class-walker-page.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-walker-page.php on line 17
+[07-Sep-2021 19:59:32 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-wp-customize-control.php on line 701
+[07-Sep-2021 19:59:32 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-wp-customize-control.php on line 701
+[07-Sep-2021 19:59:32 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-color-control.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/class-wp-customize-control.php on line 701
+[07-Sep-2021 19:59:32 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-color-control.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/class-wp-customize-control.php on line 701
+[07-Sep-2021 19:59:34 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-wp-customize-panel.php on line 394
+[07-Sep-2021 19:59:34 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-wp-customize-panel.php on line 394
+[07-Sep-2021 19:59:34 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/class-wp-customize-panel.php on line 394
+[07-Sep-2021 19:59:34 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-nav-menus-panel.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/class-wp-customize-panel.php on line 394
+[07-Sep-2021 19:59:34 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-wp-customize-section.php on line 396
+[07-Sep-2021 19:59:34 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-wp-customize-section.php on line 396
+[07-Sep-2021 19:59:34 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-themes-section.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/class-wp-customize-section.php on line 396
+[07-Sep-2021 19:59:34 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-themes-section.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/class-wp-customize-section.php on line 396
+[07-Sep-2021 19:59:35 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-wp-customize-setting.php on line 963
+[07-Sep-2021 19:59:35 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/class-wp-customize-setting.php on line 963
+[07-Sep-2021 19:59:35 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/customize/class-wp-customize-filter-setting.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/class-wp-customize-setting.php on line 963
+[07-Sep-2021 19:59:35 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/customize/class-wp-customize-filter-setting.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/class-wp-customize-setting.php on line 963
+[07-Sep-2021 19:59:40 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/class-wp-feed-cache.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-feed-cache.php on line 11
+[07-Sep-2021 19:59:43 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home1/jwhuang/public_html/wp-includes/class-wp-http-ixr-client.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-http-ixr-client.php on line 8
+[07-Sep-2021 19:59:45 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Requests_Hooks' not found in /home1/jwhuang/public_html/wp-includes/class-wp-http-requests-hooks.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-http-requests-hooks.php on line 17
+[07-Sep-2021 19:59:46 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_HTTP_Response' not found in /home1/jwhuang/public_html/wp-includes/class-wp-http-requests-response.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-http-requests-response.php on line 17
+[07-Sep-2021 19:59:48 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Image_Editor' not found in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-gd.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-gd.php on line 16
+[07-Sep-2021 19:59:49 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Image_Editor' not found in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-image-editor-imagick.php on line 16
+[07-Sep-2021 20:00:07 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SimplePie_File' not found in /home1/jwhuang/public_html/wp-includes/class-wp-simplepie-file.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-simplepie-file.php on line 20
+[07-Sep-2021 20:00:07 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'SimplePie_Sanitize' not found in /home1/jwhuang/public_html/wp-includes/class-wp-simplepie-sanitize-kses.php:20
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-simplepie-sanitize-kses.php on line 20
+[07-Sep-2021 20:00:12 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Text_Diff_Renderer_inline' not found in /home1/jwhuang/public_html/wp-includes/class-wp-text-diff-renderer-inline.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-text-diff-renderer-inline.php on line 16
+[07-Sep-2021 20:00:12 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Text_Diff_Renderer' not found in /home1/jwhuang/public_html/wp-includes/class-wp-text-diff-renderer-table.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-text-diff-renderer-table.php on line 16
+[07-Sep-2021 20:00:15 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Session_Tokens' not found in /home1/jwhuang/public_html/wp-includes/class-wp-user-meta-session-tokens.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-user-meta-session-tokens.php on line 17
+[07-Sep-2021 20:00:20 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home1/jwhuang/public_html/wp-includes/class-wp-xmlrpc-server.php:23
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-wp-xmlrpc-server.php on line 23
+[07-Sep-2021 20:00:23 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home1/jwhuang/public_html/wp-includes/class.wp-scripts.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class.wp-scripts.php on line 18
+[07-Sep-2021 20:00:24 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Dependencies' not found in /home1/jwhuang/public_html/wp-includes/class.wp-styles.php:18
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class.wp-styles.php on line 18
+[07-Sep-2021 20:00:26 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/compat.php on line 333
+[07-Sep-2021 20:00:26 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/compat.php on line 333
+[07-Sep-2021 20:00:26 America/Chicago] PHP Warning:  require(ABSPATHWPINC/sodium_compat/autoload.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/compat.php on line 333
+[07-Sep-2021 20:00:26 America/Chicago] PHP Warning:  require(ABSPATHWPINC/sodium_compat/autoload.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/compat.php on line 333
+[07-Sep-2021 20:00:26 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/sodium_compat/autoload.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/compat.php on line 333
+[07-Sep-2021 20:00:27 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/date.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/date.php on line 11
+[07-Sep-2021 20:00:28 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home1/jwhuang/public_html/wp-includes/default-filters.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/default-filters.php on line 17
+[07-Sep-2021 20:00:29 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/default-widgets.php on line 11
+[07-Sep-2021 20:00:29 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/default-widgets.php on line 11
+[07-Sep-2021 20:00:29 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/widgets/class-wp-widget-pages.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/default-widgets.php on line 11
+[07-Sep-2021 20:00:29 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/widgets/class-wp-widget-pages.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/default-widgets.php on line 11
+[07-Sep-2021 20:00:30 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/embed-template.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/embed-template.php on line 11
+[07-Sep-2021 20:00:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home1/jwhuang/public_html/wp-includes/feed-atom-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/feed-atom-comments.php on line 8
+[07-Sep-2021 20:00:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home1/jwhuang/public_html/wp-includes/feed-atom.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/feed-atom.php on line 8
+[07-Sep-2021 20:00:33 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home1/jwhuang/public_html/wp-includes/feed-rdf.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/feed-rdf.php on line 8
+[07-Sep-2021 20:00:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home1/jwhuang/public_html/wp-includes/feed-rss.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/feed-rss.php on line 8
+[07-Sep-2021 20:00:34 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home1/jwhuang/public_html/wp-includes/feed-rss2-comments.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/feed-rss2-comments.php on line 8
+[07-Sep-2021 20:00:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function feed_content_type() in /home1/jwhuang/public_html/wp-includes/feed-rss2.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/feed-rss2.php on line 8
+[07-Sep-2021 20:00:37 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-Sep-2021 20:00:37 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-Sep-2021 20:00:37 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-Sep-2021 20:00:37 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-Sep-2021 20:00:37 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-Sep-2021 20:00:43 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/locale.php on line 11
+[07-Sep-2021 20:00:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_shortcode() in /home1/jwhuang/public_html/wp-includes/media.php:2072
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/media.php on line 2072
+[07-Sep-2021 20:00:46 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/ms-blogs.php on line 11
+[07-Sep-2021 20:00:46 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/ms-blogs.php on line 11
+[07-Sep-2021 20:00:46 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/ms-site.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/ms-blogs.php on line 11
+[07-Sep-2021 20:00:46 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/ms-site.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/ms-blogs.php on line 11
+[07-Sep-2021 20:00:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home1/jwhuang/public_html/wp-includes/ms-default-filters.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/ms-default-filters.php on line 16
+[07-Sep-2021 20:00:50 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/ms-settings.php on line 35
+[07-Sep-2021 20:00:50 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/ms-settings.php on line 35
+[07-Sep-2021 20:00:50 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/class-wp-network.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/ms-settings.php on line 35
+[07-Sep-2021 20:00:50 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-wp-network.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/ms-settings.php on line 35
+[07-Sep-2021 20:00:52 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/nav-menu-template.php on line 11
+[07-Sep-2021 20:00:52 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/nav-menu-template.php on line 11
+[07-Sep-2021 20:00:52 America/Chicago] PHP Warning:  require_once(ABSPATHWPINC/class-walker-nav-menu.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/nav-menu-template.php on line 11
+[07-Sep-2021 20:00:52 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHWPINC/class-walker-nav-menu.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/nav-menu-template.php on line 11
+[07-Sep-2021 20:00:58 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/registration-functions.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/registration-functions.php on line 9
+[07-Sep-2021 20:00:59 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/registration.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/registration.php on line 9
+[07-Sep-2021 20:01:03 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/rss.php:19
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/rss.php on line 19
+[07-Sep-2021 20:01:03 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/script-loader.php on line 20
+[07-Sep-2021 20:01:03 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/script-loader.php on line 20
+[07-Sep-2021 20:01:03 America/Chicago] PHP Warning:  require(ABSPATHWPINC/class-wp-dependency.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/script-loader.php on line 20
+[07-Sep-2021 20:01:03 America/Chicago] PHP Warning:  require(ABSPATHWPINC/class-wp-dependency.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/script-loader.php on line 20
+[07-Sep-2021 20:01:03 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/class-wp-dependency.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/script-loader.php on line 20
+[07-Sep-2021 20:01:04 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/session.php:9
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/session.php on line 9
+[07-Sep-2021 20:01:06 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/spl-autoload-compat.php:14
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/spl-autoload-compat.php on line 14
+[07-Sep-2021 20:01:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[07-Sep-2021 20:01:07 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function wp_using_themes() in /home1/jwhuang/public_html/wp-includes/template-loader.php:7
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-loader.php on line 7
+[07-Sep-2021 20:01:10 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function is_main_site() in /home1/jwhuang/public_html/wp-includes/update.php:959
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/update.php on line 959
+[07-Sep-2021 20:01:11 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function is_admin() in /home1/jwhuang/public_html/wp-includes/vars.php:23
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/vars.php on line 23
+[07-Sep-2021 20:01:14 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/wp-diff.php on line 13
+[07-Sep-2021 20:01:14 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/wp-diff.php on line 13
+[07-Sep-2021 20:01:14 America/Chicago] PHP Warning:  require(ABSPATHWPINC/Text/Diff.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/wp-diff.php on line 13
+[07-Sep-2021 20:01:14 America/Chicago] PHP Warning:  require(ABSPATHWPINC/Text/Diff.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/wp-diff.php on line 13
+[07-Sep-2021 20:01:14 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/Text/Diff.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/wp-diff.php on line 13
+[08-Sep-2021 13:05:22 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[09-Sep-2021 03:28:47 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[09-Sep-2021 17:43:41 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[09-Sep-2021 18:05:21 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function get_the_block_template_html() in /home1/jwhuang/public_html/wp-includes/template-canvas.php:12
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/template-canvas.php on line 12
+[17-Oct-2021 02:53:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function _deprecated_file() in /home1/jwhuang/public_html/wp-includes/locale.php:11
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/locale.php on line 11
+[17-Oct-2021 12:11:00 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'Walker' not found in /home1/jwhuang/public_html/wp-includes/class-walker-nav-menu.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/class-walker-nav-menu.php on line 17
+[20-Mar-2022 11:39:57 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[20-Mar-2022 11:39:57 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[20-Mar-2022 11:39:57 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[20-Mar-2022 11:39:57 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[20-Mar-2022 11:39:57 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[23-Jun-2022 17:11:31 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[23-Jun-2022 17:11:31 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[23-Jun-2022 17:11:31 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[23-Jun-2022 17:11:31 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[23-Jun-2022 17:11:31 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Jul-2022 02:35:01 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Jul-2022 02:35:01 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Jul-2022 02:35:01 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Jul-2022 02:35:01 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Jul-2022 02:35:01 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[17-Aug-2022 21:02:29 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[17-Aug-2022 21:02:29 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[17-Aug-2022 21:02:29 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[17-Aug-2022 21:02:29 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[17-Aug-2022 21:02:29 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Nov-2022 09:54:57 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Nov-2022 09:54:57 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Nov-2022 09:54:57 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Nov-2022 09:54:57 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[14-Nov-2022 09:54:57 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[06-Mar-2023 22:00:29 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[06-Mar-2023 22:00:29 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[06-Mar-2023 22:00:29 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[06-Mar-2023 22:00:29 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[06-Mar-2023 22:00:29 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-May-2023 13:52:54 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-May-2023 13:52:54 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-May-2023 13:52:54 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-May-2023 13:52:54 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[07-May-2023 13:52:54 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[16-Jun-2023 00:20:45 America/Chicago] PHP Warning:  Use of undefined constant ABSPATH - assumed 'ABSPATH' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[16-Jun-2023 00:20:45 America/Chicago] PHP Warning:  Use of undefined constant WPINC - assumed 'WPINC' (this will throw an Error in a future version of PHP) in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[16-Jun-2023 00:20:45 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[16-Jun-2023 00:20:45 America/Chicago] PHP Warning:  require(ABSPATHWPINC/option.php): failed to open stream: No such file or directory in /home1/jwhuang/public_html/wp-includes/functions.php on line 8
+[16-Jun-2023 00:20:45 America/Chicago] PHP Fatal error:  require(): Failed opening required 'ABSPATHWPINC/option.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home1/jwhuang/public_html/wp-includes/functions.php on line 8

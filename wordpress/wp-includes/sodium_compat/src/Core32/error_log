@@ -1,0 +1,8 @@
+[26-Mar-2022 16:06:58 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core32_Curve25519' not found in /home1/jwhuang/public_html/wp-includes/sodium_compat/src/Core32/Ed25519.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/sodium_compat/src/Core32/Ed25519.php on line 10
+[26-Mar-2022 16:06:58 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'ParagonIE_Sodium_Core32_Curve25519' not found in /home1/jwhuang/public_html/wp-includes/sodium_compat/src/Core32/Ed25519.php:10
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/sodium_compat/src/Core32/Ed25519.php on line 10

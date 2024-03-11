@@ -1,0 +1,140 @@
+[01-Aug-2021 14:21:20 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[03-Aug-2021 22:27:54 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[06-Aug-2021 01:44:02 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[07-Aug-2021 09:55:38 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[07-Aug-2021 15:26:36 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[11-Aug-2021 02:26:33 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[12-Aug-2021 04:18:24 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[13-Aug-2021 01:38:07 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[13-Aug-2021 21:31:43 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[14-Aug-2021 10:49:46 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[15-Aug-2021 15:47:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[15-Aug-2021 17:58:14 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[15-Aug-2021 19:57:17 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[17-Aug-2021 06:44:32 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[17-Aug-2021 12:53:56 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[20-Aug-2021 23:55:25 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[22-Aug-2021 01:24:29 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[22-Aug-2021 20:53:28 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[27-Aug-2021 16:17:58 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[27-Aug-2021 20:17:39 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[27-Aug-2021 21:47:53 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[28-Aug-2021 01:09:58 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[28-Aug-2021 08:55:45 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[29-Aug-2021 01:08:12 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[30-Aug-2021 00:54:47 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[30-Aug-2021 03:16:44 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[31-Aug-2021 15:38:51 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[03-Sep-2021 04:07:14 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[03-Sep-2021 13:17:12 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[05-Sep-2021 06:42:32 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[06-Sep-2021 23:23:56 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[08-Sep-2021 13:12:38 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[09-Sep-2021 03:30:46 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[09-Sep-2021 17:44:28 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
+[09-Sep-2021 18:06:06 America/Chicago] PHP Fatal error:  Uncaught Error: Class 'WP_Widget' not found in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/jwhuang/public_html/wp-includes/widgets/class-wp-widget-block.php on line 17
