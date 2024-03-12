@@ -38,7 +38,7 @@ services:
         depends_on:
             - mysql
         environment:
-            - PMA_HOST=mysql:3306
+            - PMA_HOST=mysql
             - PMA_ARBITRARY=1
             - UPLOAD_LIMIT=300M
         ports:
@@ -52,10 +52,11 @@ services:
         volumes: 
             - ./db/dev:/docker-entrypoint-initdb.d
         environment:
+            MYSQL_ALLOW_EMPTY_PASSWORD: 'false'  # 不允許空密碼
             MYSQL_ROOT_PASSWORD: $WP_MYSQL_ROOT_PASSWORD
             MYSQL_DATABASE: $WP_MYSQL_DATABASE
-            MYSQL_USER: $WP_MYSQL_USERNAME
-            MYSQL_PASSWORD: $WP_MYSQL_PASSWORD
+            MYSQL_USER: $WP_MYSQL_USERNAME   # 指定新的使用者
+            MYSQL_PASSWORD: $WP_MYSQL_PASSWORD # 指定新使用者的密碼
         networks:
             - nuxt-network
 networks:
